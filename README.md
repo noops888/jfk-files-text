@@ -6,12 +6,12 @@ This project contains tools and extracted text from the JFK assassination record
 
 ```
 .
-├── downloader_scripts/          # Scripts for downloading PDF files
-├── extraction_scripts/          # Scripts for converting PDFs to text
-│   ├── linux/                  # Linux-specific extraction tools
-│   ├── macOS/                  # macOS-specific extraction tools
-│   └── find_missing.py         # Utility to find missing conversions
-└── extracted_text/             # Extracted text content
+├── downloader_scripts/        # Scripts for downloading PDF files
+├── extraction_scripts/        # Scripts for converting PDFs to text
+│   ├── linux/                 # Linux-specific extraction tools
+│   ├── macOS/                 # macOS-specific extraction tools
+│   └── find_missing.py        # Utility to find missing conversions
+└── extracted_text/            # Extracted text content
     ├── release-2025/          # 2025 release files
     ├── release-2023/          # 2023 release files
     └── release-2021/          # 2021 release files
