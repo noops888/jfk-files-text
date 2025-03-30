@@ -1,0 +1,1 @@
+This does not work with larger files. Files with too many pages will fail to extract properly. It's not clear what the page limit is.
