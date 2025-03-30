@@ -19,13 +19,13 @@ This project contains tools and extracted text from the JFK assassination record
 
 ## Current Status
 
-| Release Year | Status | Extraction Method |
-|--------------|---------|-------------------|
-| 2025 | ✅ Complete | Apple Vision OCR |
-| 2023 | ✅ Complete | Apple Vision OCR |
-| 2022 | 🚧 In Progress | Linux PDF to Text |
-| 2021 | ✅ Complete | Apple Vision OCR |
-| 2017-2018 | 🚧 In Progress | Linux PDF to Text |
+| Release Year | Status | Extraction Method | Files Downloaded | Size | Total Files Listed |
+|--------------|---------|-------------------|------------------|------|-------------------|
+| 2025 | ✅ Complete | Apple Vision OCR | 2,343 | 7.57GB | 2,359 |
+| 2023 | ✅ Complete | Apple Vision OCR | 2,680 | 6.12GB | 2,693 |
+| 2022 | 🚧 In Progress | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
+| 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,491 |
+| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,604 |
 
 ## Getting Started
 
@@ -80,6 +80,32 @@ python extraction_scripts/find_missing.py
 - [Downloader Scripts Documentation](downloader_scripts/README.md)
 - [Extraction Scripts Documentation](extraction_scripts/README.md)
 - [Extracted Text Documentation](extracted_text/README.md)
+
+## Known Issues
+
+### Data Inconsistencies
+
+1. **Release Format Variations**
+   - The 2025 release page format differs from previous releases
+   - No .xlsx file is available for the 2025 release
+   - Previous releases have .xlsx files with inconsistent formats
+
+2. **Duplicate Files**
+   - 2017-2018 release contains duplicate file names in downloads
+   - 2017-2018 .xlsx file contains 54,636 line items with duplicate filenames
+
+3. **Missing Files**
+   - Discrepancies exist between downloaded files and listed totals:
+     - 2025: 16 files missing
+     - 2023: 13 files missing
+     - 2022: 64 files missing
+     - 2021: 7 files missing
+     - 2017-2018: 107 files missing
+
+### Archive Statistics
+- Total archive size: 67 GB
+- Total files: 73,205
+- Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
 
 ## Contributing
 
