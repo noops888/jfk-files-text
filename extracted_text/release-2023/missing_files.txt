@@ -1,0 +1,24 @@
+python3 find_missing.py 
+
+Debug information for DOCID-*.pdf files (case insensitive):
+glob count: 0
+listdir count: 0
+scandir count: 0
+
+First 5 files:
+
+Last 5 files:
+
+Debug information for DOCID-*.md files (case insensitive):
+glob count: 0
+listdir count: 0
+scandir count: 0
+
+First 5 files:
+
+Last 5 files:
+
+Results:
+Total PDFs: 0
+Total TXTs: 0
+Missing TXT files: 0
