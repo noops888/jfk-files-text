@@ -86,7 +86,7 @@ python extraction_scripts/find_missing.py
 ### Data Inconsistencies
 
 1. **Release Format Variations**
-   - The 2025 release page format differs from previous releases
+   - The release page formats are incosistent
    - No .xlsx file is available for the 2025 release
    - Previous releases have .xlsx files with inconsistent formats
 

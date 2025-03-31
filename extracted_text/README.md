@@ -24,8 +24,9 @@ DOCID-{number}.md
 extracted_text/
 ├── release-2025/     # Completed files from 2025 release
 ├── release-2023/     # Completed files from 2023 release
+├── release-2022/     # Completed files from 2022 release
 ├── release-2021/     # Completed files from 2021 release
-└── [2022 and 2017-2018 releases are in progress]
+└── [2017-2018 releases are in progress]
 ```
 
 ## File Format
