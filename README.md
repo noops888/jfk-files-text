@@ -14,6 +14,7 @@ This project contains tools and extracted text from the JFK assassination record
 └── extracted_text/            # Extracted text content
     ├── release-2025/          # 2025 release files
     ├── release-2023/          # 2023 release files
+    ├── release-2022/          # 2022 release files
     └── release-2021/          # 2021 release files
 ```
 
@@ -21,7 +22,7 @@ This project contains tools and extracted text from the JFK assassination record
 
 | Release Year | Status | Extraction Method | Files Downloaded | Size | Total Files Listed |
 |--------------|---------|-------------------|------------------|------|-------------------|
-| 2025 | ✅ Complete | Apple Vision OCR | 2,343 | 7.57GB | 2,359 |
+| 2025 | ✅ Complete | Apple Vision OCR | 2,359 | 7.57GB | 2,359 |
 | 2023 | ✅ Complete | Apple Vision OCR | 2,680 | 6.12GB | 2,693 |
 | 2022 | 🚧 In Progress | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,491 |
