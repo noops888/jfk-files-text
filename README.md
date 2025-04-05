@@ -24,7 +24,7 @@ This project contains tools and extracted text from the JFK assassination record
 |--------------|---------|-------------------|------------------|------|-------------------|
 | 2025 | ✅ Complete | Apple Vision OCR | 2,359 | 7.57GB | 2,359 |
 | 2023 | ✅ Complete | Apple Vision OCR | 2,680 | 6.12GB | 2,693 |
-| 2022 | 🚧 In Progress | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
+| 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,491 |
 | 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,604 |
 
@@ -97,7 +97,6 @@ python extraction_scripts/find_missing.py
 
 3. **Missing Files**
    - Discrepancies exist between downloaded files and listed totals:
-     - 2025: 16 files missing
      - 2023: 13 files missing
      - 2022: 64 files missing
      - 2021: 7 files missing
