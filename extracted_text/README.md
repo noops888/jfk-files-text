@@ -8,7 +8,7 @@ This directory contains the extracted text content from the JFK assassination re
 |--------------|---------|-------------------|
 | 2025 | ✅ Complete | Apple Vision OCR (`apple_vision_pdf_to_text.py`) |
 | 2023 | ✅ Complete | Apple Vision OCR (`apple_vision_pdf_to_text.py`) |
-| 2022 | 🚧 In Progress | Linux PDF to Text (`linux_pdf_to_text.py`) |
+| 2022 | ✅ Complete | Linux PDF to Text (`linux_pdf_to_text.py`) |
 | 2021 | ✅ Complete | Apple Vision OCR (`apple_vision_pdf_to_text.py`) |
 | 2017-2018 | 🚧 In Progress | Linux PDF to Text (`linux_pdf_to_text.py`) |
 
