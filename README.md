@@ -104,10 +104,13 @@ python extraction_scripts/find_missing.py
      - 2021: 7 files missing
      - 2017-2018: 107 files missing
 
-3. **Zero Size Files**
+4. **Zero Size Files**
    - A small number of 0kb files were output by the Linux tesseract script for the 2022 and 2017-2018 releases:
      - 2022: 54 0kb files
      - 2017-2018: (need to update when complete)
+    
+4. **OCR Errors**
+   - The extracted text contains a substanital amount of OCR errors due to the low quality of many of the input files. 
 
 ### Archive Statistics
 - Total archive size: 67.5 GB
