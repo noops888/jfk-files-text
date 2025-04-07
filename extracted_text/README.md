@@ -16,17 +16,18 @@ This directory contains the extracted text content from the JFK assassination re
 
 All extracted text files follow the naming convention:
 ```
-DOCID-{number}.md
+{original file name}.md
 ```
 
 ## Directory Structure
 ```
 extracted_text/
-├── release-2025/     # Completed files from 2025 release
-├── release-2023/     # Completed files from 2023 release
-├── release-2022/     # Completed files from 2022 release
-├── release-2021/     # Completed files from 2021 release
-└── [2017-2018 releases are in progress]
+├── release-2025/          # Completed files from 2025 release
+├── release-2023/          # Completed files from 2023 release
+├── release-2022/          # Completed files from 2022 release
+├── release-2021/          # Completed files from 2021 release
+├── release-2017-2018/     # Completed files from 2017-2018 release
+└── reports/               # Reports and statistics on completed extractions
 ```
 
 ## File Format

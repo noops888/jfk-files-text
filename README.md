@@ -15,7 +15,9 @@ This project contains tools and extracted text from the JFK assassination record
     ├── release-2025/          # 2025 release files
     ├── release-2023/          # 2023 release files
     ├── release-2022/          # 2022 release files
-    └── release-2021/          # 2021 release files
+    ├── release-2021/          # 2021 release files
+    ├── release-2022/          # 2017-2018 release files
+    └── reports/               # Extraction reports
 ```
 
 ## Current Status
@@ -103,7 +105,7 @@ python extraction_scripts/find_missing.py
      - 2017-2018: 107 files missing
 
 ### Archive Statistics
-- Total archive size: 68 GB
+- Total archive size: 67.5 GB
 - Total files: 73,426
 - Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
 
