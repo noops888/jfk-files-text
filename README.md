@@ -1,6 +1,6 @@
 # JFK Files Text Extraction Project
 
-This project contains tools and extracted text from the JFK assassination records released by the National Archives. It includes scripts for downloading the original PDF files and converting them to searchable text format.
+This project contains tools and extracted text from the JFK assassination records released by the [National Archives.](https://www.archives.gov/research/jfk) It includes scripts for downloading the original PDF files and converting them to searchable text format.
 
 ## Project Structure
 
@@ -25,10 +25,12 @@ This project contains tools and extracted text from the JFK assassination record
 | Release Year | Status | Extraction Method | Files Downloaded | Size | Total Files Listed |
 |--------------|---------|-------------------|------------------|------|-------------------|
 | 2025 | ✅ Complete | Apple Vision OCR | 2,566 | 8.12GB | 2,566 |
-| 2023 | ✅ Complete | Apple Vision OCR | 2,680 | 6.12GB | 2,693 |
-| 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
-| 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,491 |
+| 2023 | ✅ Complete | Apple Vision OCR | 2,693 | 6.12GB | 2,693 |
+| 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,199 |
+| 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,484 |
 | 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,604 |
+
+Note: 34 files in the 2022 release and 5 files in the 2021 release tie to multiple record numbers listed in the .xlsx files which have more data rows than unique file names (13,263 and 1,491 resptively).
 
 ## Getting Started
 
@@ -95,7 +97,9 @@ python extraction_scripts/find_missing.py
 
 2. **Duplicate Files**
    - 2017-2018 release contains duplicate file names in downloads
-   - 2017-2018 .xlsx file contains 54,636 line items with duplicate filenames
+   - 2017-2018 .xlsx file contains 54,636 line items including some duplicate filenames
+   - 2017-2018 reference 54,604 files
+   - 2017-2018 website lists 54,601 line items
 
 3. **Missing Files**
    - Discrepancies exist between downloaded files and listed totals:

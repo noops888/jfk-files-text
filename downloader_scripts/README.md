@@ -18,6 +18,9 @@ pip install -r requirements.txt
 
 ## Available Scripts
 
+### count.sh 
+A simple shell script to count files by extension.
+
 ### jfk-2017-2018-downloader.py
 Downloads files from the 2017-2018 release using Excel file data.
 ```bash

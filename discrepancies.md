@@ -1,41 +1,8 @@
-Fewer files were downloaded than are listed on [the National Archives website](https://www.archives.gov/research/jfk) for 4 of the 5 releases. 
+Fewer files were downloaded than are listed on [the National Archives website](https://www.archives.gov/research/jfk) for 1 of the 5 releases. 
 
 **Discrepancies exist between downloaded files and listed totals:**
 
-- 2023: 13 files missing
-- 2022: 64 files missing
-- 2021: 7 files missing
 - 2017-2018: 107 files missing
-
-[**Release 2023**](https://www.archives.gov/research/jfk/release-2023)
-
-- August 24, 2023: 21 documents
-- June 27, 2023: 1,103 documents
-- June 13, 2023: 290 documents
-- May 11, 2023: 502 documents
-- April 27, 2023: 355 documents
-- April 13, 2023: 422 documents 
-
-Total: 2,693
-
-- Line items [web:](https://www.archives.gov/research/jfk/release-2023?page=53) 2,693
-- Line items [.xlsx:](https://www.archives.gov/files/research/jfk/national-archives-jfk-assassination-records-2023-release.xlsx)2,693
-  
-Downloaded: 2,680 (-13)
-
-[**Release 2022**](https://www.archives.gov/research/jfk/release-2022)
-
-- Line items [web:](https://www.archives.gov/research/jfk/release-2022?page=265) 13,263
-- Line items [xlsx:](https://www.archives.gov/files/research/jfk/national-archives-jfk-assassination-records-2022-release.xlsx) 13,263
-
-Downloaded: 13,199 (-64)
-
-**[Release 2021](https://www.archives.gov/research/jfk/release-2021)**
-
-- Line items [web:](https://www.archives.gov/research/jfk/release-2021) 1,491
-- Line items [xlsx:](https://www.archives.gov/files/research/jfk/national-archives-jfk-assassination-records-2021-release.xlsx)1,491
-
-Downloaded: 1,484 (-7)
 
 **[Release 2017-2018](https://www.archives.gov/research/jfk/release-2021)**
 
