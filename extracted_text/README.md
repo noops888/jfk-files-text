@@ -22,11 +22,10 @@ All extracted text files follow the naming convention:
 ## Directory Structure
 ```
 extracted_text/             
-├── releases/ 	               # 2017 release (in progress)
-├── additional/            # 2017 release
-├── 2018/                  # 2018 release    
+├── releases/ 	           # 2017 release (in progress)
+├── additional/            # 2017 release (in progress)
+├── 2018/                  # 2018 release (in progress)   
 ├── 2021/                  # 2021 release 
-├── 2021/                  # 2021 release
 ├── 2022/          		   # 2022 release
 ├── 2023/          		   # 2023 release
 ├── 2025/0318/       	   # 2023 release

@@ -6,7 +6,7 @@ This project contains tools and extracted text from the JFK assassination record
 
 ```
 .
-├── downloader_scripts/        # Scripts for downloading PDF files
+├── downloader_scripts/        # Scripts for downloading files from the National Archives
 │   ├── csv/                   # csv files listing direct download URLs for all files
 │   └── xlsx/                  # xlsx files from the National Archives with additional details about each file
 ├── extraction_scripts/        # Scripts for converting PDFs to text
@@ -14,15 +14,14 @@ This project contains tools and extracted text from the JFK assassination record
 │   ├── macOS/                 # macOS-specific extraction tools
 │   └── find_missing.py        # Utility to find missing conversions
 └── extracted_text/            # Extracted text content               
-    ├── releases/                 # 2017 release (in progress)
-        ├── additional/            # 2017 release
-        ├── 2018/                  # 2018 release    
-        ├── 2021/                  # 2021 release 
-        ├── 2021/                  # 2021 release
-        ├── 2022/                  # 2022 release
-        ├── 2023/                  # 2023 release
-        ├── 2025/0318/             # 2023 release
-        └── reports/               # Reports and statistics on completed extractions    
+    ├── releases/              # 2017 release (in progress)
+        ├── additional/        # 2017 release (in progress)
+        ├── 2018/              # 2018 release (in progress)   
+        ├── 2021/              # 2021 release
+        ├── 2022/              # 2022 release
+        ├── 2023/              # 2023 release
+        ├── 2025/0318/         # 2025 release
+        └── reports/           # Reports and statistics on completed extractions    
 ```
 
 ## Current Status
