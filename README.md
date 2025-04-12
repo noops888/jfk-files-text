@@ -13,13 +13,16 @@ This project contains tools and extracted text from the JFK assassination record
 │   ├── linux/                 # Linux-specific extraction tools
 │   ├── macOS/                 # macOS-specific extraction tools
 │   └── find_missing.py        # Utility to find missing conversions
-└── extracted_text/            # Extracted text content
-    ├── release-2025/          # 2025 release files
-    ├── release-2023/          # 2023 release files
-    ├── release-2022/          # 2022 release files
-    ├── release-2021/          # 2021 release files
-    ├── release-2017-2018/     # 2017-2018 release files
-    └── reports/               # Reports
+└── extracted_text/            # Extracted text content               
+    ├── releases/                 # 2017 release (in progress)
+        ├── additional/            # 2017 release
+        ├── 2018/                  # 2018 release    
+        ├── 2021/                  # 2021 release 
+        ├── 2021/                  # 2021 release
+        ├── 2022/                  # 2022 release
+        ├── 2023/                  # 2023 release
+        ├── 2025/0318/             # 2023 release
+        └── reports/               # Reports and statistics on completed extractions    
 ```
 
 ## Current Status
