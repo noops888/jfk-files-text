@@ -6,6 +6,32 @@ This repository contains a collection of Python scripts designed to download the
 
 All JFK assassination records are available at: https://www.archives.gov/research/jfk
 
+The download script will preserve the directory structure of the original archive. We identified the following URL patterns for each JFK archive release:
+
+Release 2017-2018
+
+https://www.archives.gov/files/research/jfk/releases/
+https://www.archives.gov/files/research/jfk/releases/2018/
+https://www.archives.gov/files/research/jfk/releases/additional/
+
+Release 2021
+
+https://www.archives.gov/files/research/jfk/releases/2021/
+
+Release 2022
+
+https://www.archives.gov/files/research/jfk/releases/2022/
+
+Release 2023
+
+https://www.archives.gov/files/research/jfk/releases/2023/
+https://www.archives.gov/files/research/jfk/releases/2023/08/
+
+Release 2025
+
+https://www.archives.gov/files/research/jfk/releases/2025/0318/
+
+
 ## Requirements
 
 - Python 3.x
@@ -21,18 +47,25 @@ pip install -r requirements.txt
 ### count.sh 
 A simple shell script to count files by extension in a specified directory.
 
+### jfk-diagnostic.py
+Runs diagnostic checks on downloaded files.
+```bash
+python jfk-diagnostic.py [download_directory]
+```
 
-### jfk-universal-downloader.py
+### jfk_downloader.py
 Downloads files from any CSV listing unqiue filenames and corresponding URLs.
 ```bash
-python jfk_universal_downloader.py
+ython jfk_downloader.py --csv CSV_FILE --output OUTPUT_DIR [--threads THREADS] [--resume] [--verify]
 ```
 
-### jfk-2025-pdf-downloader.py
-Downloads and merges PDF files from the 2025 release which does not have an .xlsv listing all file URLs
-```bash
-python jfk-2025-pdf-downloader.py
-```
+Arguments
+
+--csv CSV_FILE: Path to the CSV file containing download URLs
+--output OUTPUT_DIR: Directory where files will be downloaded
+--threads THREADS: Number of download threads (default: 4)
+--resume: Resume previous download (skip already downloaded files)
+--verify: Verify integrity of previously downloaded files
 
 ### jfk-recover-missing.py
 Recovers any missing files from previous downloads.
@@ -40,27 +73,21 @@ Recovers any missing files from previous downloads.
 python jfk-recover-missing.py [release_year]
 ```
 
-### jfk-diagnostic.py
-Runs diagnostic checks on downloaded files.
-```bash
-python jfk-diagnostic.py [download_directory]
-```
-
 ## Excel Files
 
 The following Excel files are included for reference:
-- national-archives-jfk-assassination-records-2017-2018-release.xlsx
-- national-archives-jfk-assassination-records-2021-release.xlsx
-- national-archives-jfk-assassination-records-2022-release.xlsx
-- national-archives-jfk-assassination-records-2023-release.xlsx
+- ./xlsx/national-archives-jfk-assassination-records-2017-2018-release.xlsx
+- ./xlsx/national-archives-jfk-assassination-records-2021-release.xlsx
+- ./xlsx/national-archives-jfk-assassination-records-2022-release.xlsx
+- ./xlsx/national-archives-jfk-assassination-records-2023-release.xlsx
 
 ## CSV Files
 The following unique URL CSV files are included
-- 2017_unique_urls.csv
-- 2018_unique_urls.csv
-- 2021_unique_urls.csv
-- 2023_unique_urls.csv
-- 2025_unique_urls.csv
+- ./csv/jfk_archive_2017_2018_urls.csv
+- ./csv/jfk_archive_2021_urls.csv
+- ./csv/jfk_archive_2022_urls.csv
+- ./csv/jfk_archive_2023_urls.csv
+- ./csv/jfk_archive_2025_urls.csv
 
 ## Notes
 
