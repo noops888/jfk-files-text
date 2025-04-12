@@ -7,6 +7,8 @@ This project contains tools and extracted text from the JFK assassination record
 ```
 .
 ├── downloader_scripts/        # Scripts for downloading PDF files
+│   ├── csv/                   # csv files listing direct download URLs for all files
+│   └── xlsx/                  # xlsx files from the National Archives with additional details about each file
 ├── extraction_scripts/        # Scripts for converting PDFs to text
 │   ├── linux/                 # Linux-specific extraction tools
 │   ├── macOS/                 # macOS-specific extraction tools
@@ -16,8 +18,8 @@ This project contains tools and extracted text from the JFK assassination record
     ├── release-2023/          # 2023 release files
     ├── release-2022/          # 2022 release files
     ├── release-2021/          # 2021 release files
-    ├── release-2022/          # 2017-2018 release files
-    └── reports/               # Extraction reports
+    ├── release-2017-2018/     # 2017-2018 release files
+    └── reports/               # Reports
 ```
 
 ## Current Status
@@ -28,7 +30,7 @@ This project contains tools and extracted text from the JFK assassination record
 | 2023 | ✅ Complete | Apple Vision OCR | 2,693 | 6.20GB | 2,693 |
 | 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,199 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,484 |
-| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,604 |
+| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,547 |
 
 Note: 34 files in the 2022 release and 5 files in the 2021 release tie to multiple record numbers listed in the .xlsx files which have more data rows than unique file names (13,263 and 1,491 resptively).
 
