@@ -31,8 +31,8 @@ BASE_URL = "https://www.archives.gov"
 RELEASE_URLS = {
     "2025": "https://www.archives.gov/research/jfk/release-2025",
 }
-DOWNLOAD_DIR = os.path.expanduser("~/Downloads/JFK_Files")
-MERGED_DIR = os.path.expanduser("~/Downloads/JFK_Files/Merged")
+DOWNLOAD_DIR = os.path.expanduser("./")
+MERGED_DIR = os.path.expanduser("./Merged")
 
 # Create necessary directories
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)

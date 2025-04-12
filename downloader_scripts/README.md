@@ -19,25 +19,17 @@ pip install -r requirements.txt
 ## Available Scripts
 
 ### count.sh 
-A simple shell script to count files by extension.
+A simple shell script to count files by extension in a specified directory.
 
-### jfk-2017-2018-downloader.py
-Downloads files from the 2017-2018 release using Excel file data.
-```bash
-python jfk-2017-2018-downloader.py [excel_file] [--threads N] [--test]
-```
-- `excel_file`: Path to the Excel file containing file information
-- `--threads N`: Number of concurrent download threads (default: 4)
-- `--test`: Run in test mode without actual downloads
 
-### jfk-2021-downloader.py
-Downloads files from the 2021 release.
+### jfk-universal-downloader.py
+Downloads files from any CSV listing unqiue filenames and corresponding URLs.
 ```bash
-python jfk-2021-downloader.py [excel_file] [--threads N] [--test]
+python jfk_universal_downloader.py
 ```
 
 ### jfk-2025-pdf-downloader.py
-Downloads and merges PDF files from the 2025 release.
+Downloads and merges PDF files from the 2025 release which does not have an .xlsv listing all file URLs
 ```bash
 python jfk-2025-pdf-downloader.py
 ```
@@ -54,12 +46,6 @@ Runs diagnostic checks on downloaded files.
 python jfk-diagnostic.py [download_directory]
 ```
 
-### jfk-other-downloader.py
-Downloads miscellaneous JFK-related files.
-```bash
-python jfk-other-downloader.py [--threads N] [--test]
-```
-
 ## Excel Files
 
 The following Excel files are included for reference:
@@ -68,10 +54,18 @@ The following Excel files are included for reference:
 - national-archives-jfk-assassination-records-2022-release.xlsx
 - national-archives-jfk-assassination-records-2023-release.xlsx
 
+## CSV Files
+The following unique URL CSV files are included
+- 2017_unique_urls.csv
+- 2018_unique_urls.csv
+- 2021_unique_urls.csv
+- 2023_unique_urls.csv
+- 2025_unique_urls.csv
+
 ## Notes
 
 - All scripts include error handling and retry mechanisms
-- Downloads are saved to `~/Downloads/JFK_Files` by default
+- Downloads are saved to the current directory by default
 - Progress bars are provided for download monitoring
 - Threading is implemented for improved download speeds
 
