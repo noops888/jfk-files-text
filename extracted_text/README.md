@@ -23,14 +23,14 @@ File name are referred to in the .xlsx files and on archives.gov with mixed case
 ## Directory Structure
 ```
 extracted_text/             
-├── releases/ 	           # 2017 release (in progress)
-├── additional/            # 2017 release (in progress)
-├── 2018/                  # 2018 release (in progress)   
-├── 2021/                  # 2021 release 
-├── 2022/                  # 2022 release
-├── 2023/                  # 2023 release
-├── 2025/0318/       	   # 2025 release
-└── reports/               # Reports and statistics on completed extractions
+├── releases/ 	        # 2017 release (in progress)
+|	├── additional/     # 2017 release (in progress)
+|	├── 2018/           # 2018 release (in progress)   
+|	├── 2021/           # 2021 release 
+|	├── 2022/           # 2022 release
+|	├── 2023/           # 2023 release
+|	├── 2025/0318/      # 2025 release
+└── reports/            # Reports and statistics on completed extractions
 ```
 
 ## File Format
