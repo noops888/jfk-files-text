@@ -1,8 +1,6 @@
-# JFK Assassination Records Archive - Download Utilities
+# Download Utilities
 
-This repository contains Python scripts to help process and download files from the National Archives' JFK Assassination Records Releases.
-
-Specifically, it helps extract file links from the index spreadsheets provided by NARA and then download the corresponding files while preserving the intended directory structure.
+These utilties will extract direct file links from the index spreadsheets provided by NARA and then download the corresponding files while preserving the intended directory structure.
 
 ## Scripts
 
@@ -57,9 +55,7 @@ python generate_link_csv.py \
   jfk_archive_2021_urls.csv \
   --column B
 ```
-
 *(Repeat for other years as needed, adjusting the `--column` flag if necessary.)*
-
 
 **Step 2: Download Files**
 
