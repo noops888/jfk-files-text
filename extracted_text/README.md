@@ -14,7 +14,8 @@ This directory contains the extracted text content from the JFK assassination re
 
 ## File Organization
 
-File name are referred to in the .xlsx files and on archives.gov with mixed case, but file names on the server are all lowercase with two exceptions in the 2025 release. All extracted text files follow the naming convention:
+File name are referred to in the .xlsx files and on archives.gov with mixed case, but file names on the server are all lowercase with two exceptions in the 2025 release (
+104-10105-10290 (C06932214).pdf, 104-10004-10143 (C06932208).pdf). All extracted text files follow the naming convention:
 ```
 {original file name}.md
 ```
@@ -26,9 +27,9 @@ extracted_text/
 ├── additional/            # 2017 release (in progress)
 ├── 2018/                  # 2018 release (in progress)   
 ├── 2021/                  # 2021 release 
-├── 2022/          		   # 2022 release
-├── 2023/          		   # 2023 release
-├── 2025/0318/       	   # 2023 release
+├── 2022/                  # 2022 release
+├── 2023/                  # 2023 release
+├── 2025/0318/       	   # 2025 release
 └── reports/               # Reports and statistics on completed extractions
 ```
 
