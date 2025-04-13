@@ -1,98 +1,81 @@
-# JFK Files Downloader Scripts
+# JFK Assassination Records Archive - Download Utilities
 
-This repository contains a collection of Python scripts designed to download the JFK assassination records from the National Archives website. Due to varying web page structures and Excel file formats across different release years, separate scripts were developed to handle each release period.
+This repository contains Python scripts to help process and download files from the National Archives' JFK Assassination Records Releases.
 
-## Source
+Specifically, it helps extract file links from the index spreadsheets provided by NARA and then download the corresponding files while preserving the intended directory structure.
 
-All JFK assassination records are available at: https://www.archives.gov/research/jfk
+## Scripts
 
-The download script will preserve the directory structure of the original archive. We identified the following URL patterns for each JFK archive release:
+1.  **`generate_link_csv.py`**: Extracts file links from NARA's Excel index files (`.xlsx`) into a simple CSV format.
+2.  **`download_jfk_files.py`**: Downloads files listed in a CSV file, preserving the relative path structure and handling duplicates/errors.
 
-Release 2017-2018
+## Prerequisites
 
-https://www.archives.gov/files/research/jfk/releases/
-https://www.archives.gov/files/research/jfk/releases/2018/
-https://www.archives.gov/files/research/jfk/releases/additional/
+*   Python 3.7+
+*   Required Python libraries (see `requirements.txt`)
+*   The NARA JFK Assassination Records index files (`.xlsx`) or pre-formatted CSV files containing the download URLs.
 
-Release 2021
+## Setup
 
-https://www.archives.gov/files/research/jfk/releases/2021/
+1.  **Clone the repository (Optional):**
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+    *(Or simply ensure the Python scripts and your data files are in the same working directory)*
 
-Release 2022
+2.  **Create a virtual environment (Recommended):**
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
-https://www.archives.gov/files/research/jfk/releases/2022/
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Release 2023
+## Usage Workflow
 
-https://www.archives.gov/files/research/jfk/releases/2023/
-https://www.archives.gov/files/research/jfk/releases/2023/08/
+Here's the typical workflow for processing a NARA release spreadsheet:
 
-Release 2025
+**Step 1: Extract Links from Excel to CSV**
 
-https://www.archives.gov/files/research/jfk/releases/2025/0318/
+Use `generate_link_csv.py` to create a downloader-compatible CSV from the NARA Excel file. You need to specify the input Excel file, the desired output CSV name, and potentially the column containing the links (if it's not Column A).
 
-
-## Requirements
-
-- Python 3.x
-- Dependencies listed in `requirements.txt`
-
-Install dependencies using:
+*Example for 2017-2018 (Links in Column A):*
 ```bash
-pip install -r requirements.txt
+python generate_link_csv.py \
+  national-archives-jfk-assassination-records-2017-2018-release.xlsx \
+  jfk_archive_2017-2018_urls.csv
 ```
 
-## Available Scripts
-
-### count.sh 
-A simple shell script to count files by extension in a specified directory.
-
-### jfk-diagnostic.py
-Runs diagnostic checks on downloaded files.
+*Example for 2021 (Links in Column B):*
 ```bash
-python jfk-diagnostic.py [download_directory]
+python generate_link_csv.py \
+  national-archives-jfk-assassination-records-2021-release.xlsx \
+  jfk_archive_2021_urls.csv \
+  --column B
 ```
 
-### jfk_downloader.py
-Downloads files from any CSV listing unqiue filenames and corresponding URLs.
+*(Repeat for other years as needed, adjusting the `--column` flag if necessary.)*
+
+
+**Step 2: Download Files**
+
+Use `download_jfk_files.py`, providing the CSV generated in Step 1 or 2 and the desired root directory for downloads.
+
+*Example downloading from the 2017-2018 CSV into `./jfk_downloads`:*
 ```bash
-ython jfk_downloader.py --csv CSV_FILE --output OUTPUT_DIR [--threads THREADS] [--resume] [--verify]
+python download_jfk_files.py \
+  jfk_archive_2017-2018_urls.csv \
+  ./jfk_downloads
 ```
-
-Arguments
-
---csv CSV_FILE: Path to the CSV file containing download URLs
---output OUTPUT_DIR: Directory where files will be downloaded
---threads THREADS: Number of download threads (default: 4)
---resume: Resume previous download (skip already downloaded files)
---verify: Verify integrity of previously downloaded files
-
-### jfk-recover-missing.py
-Recovers any missing files from previous downloads.
-```bash
-python jfk-recover-missing.py [release_year]
-```
-
-## Excel Files
-
-The following Excel files are included for reference:
-- ./xlsx/national-archives-jfk-assassination-records-2017-2018-release.xlsx
-- ./xlsx/national-archives-jfk-assassination-records-2021-release.xlsx
-- ./xlsx/national-archives-jfk-assassination-records-2022-release.xlsx
-- ./xlsx/national-archives-jfk-assassination-records-2023-release.xlsx
-
-## CSV Files
-The following unique URL CSV files are included
-- ./csv/jfk_archive_2017_2018_urls.csv
-- ./csv/jfk_archive_2021_urls.csv
-- ./csv/jfk_archive_2022_urls.csv
-- ./csv/jfk_archive_2023_urls.csv
-- ./csv/jfk_archive_2025_urls.csv
 
 ## Notes
 
-- All scripts include error handling and retry mechanisms
-- Downloads are saved to the current directory by default
-- Progress bars are provided for download monitoring
-- Threading is implemented for improved download speeds
-
+*   The download script (`download_jfk_files.py`) checks for existing files and compares file sizes. If a local file exists and matches the size reported by the server (via a `HEAD` request), it will be skipped. This allows the script to be stopped and restarted.
+*   If a local file exists but the size is different, or if the remote size cannot be determined, the script will re-download and overwrite the local file.
+*   Failed downloads are logged to the console at the end of the process.
+*   The scripts expect URLs to follow the pattern `https://www.archives.gov/files/research/jfk/...`. The path structure following this prefix is recreated locally within the specified output directory.
+*   Filesystem case sensitivity: The scripts save files using the casing derived from the URL path. On case-insensitive filesystems like default macOS, `File.pdf` and `file.pdf` might be treated as the same file if they are in the same directory, but the downloader saves them using the case provided by the URL.

@@ -1,6 +1,6 @@
 # JFK Files Extracted Text
 
-This directory contains the extracted text content from the JFK assassination records. The text files were generated using different extraction methods based on the release year of the documents.
+This directory contains the extracted text content from the JFK assassination records. The text files were generated using different extraction methods based on the release year of the documents. 
 
 ## Current Status
 
@@ -14,7 +14,7 @@ This directory contains the extracted text content from the JFK assassination re
 
 ## File Organization
 
-All extracted text files follow the naming convention:
+File name are referred to in the .xlsx files and on archives.gov with mixed case, but file names on the server are all lowercase with two exceptions in the 2025 release. All extracted text files follow the naming convention:
 ```
 {original file name}.md
 ```

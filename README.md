@@ -1,6 +1,6 @@
 # JFK Files Text Extraction Project
 
-This project contains tools and extracted text from the JFK assassination records released by the [National Archives.](https://www.archives.gov/research/jfk) It includes scripts for downloading the original PDF files and converting them to searchable text format.
+This project contains tools and extracted text from the JFK assassination records released by the [National Archives.](https://www.archives.gov/research/jfk) It includes scripts for downloading the original PDF files and converting them to searchable text format. The unorthodox directory structure of the extracted text mirrors the source to make it easier to reference or link files back to the original on archives.gov. 
 
 ## Project Structure
 
@@ -9,7 +9,7 @@ This project contains tools and extracted text from the JFK assassination record
 ├── downloader_scripts/        # Scripts for downloading files from the National Archives
 │   ├── csv/                   # csv files listing direct download URLs for all files
 │   └── xlsx/                  # xlsx files from the National Archives with additional details about each file
-├── extraction_scripts/        # Scripts for converting PDFs to text
+├── extraction_scripts/        # Scripts for converting PDF to text
 │   ├── linux/                 # Linux-specific extraction tools
 │   ├── macOS/                 # macOS-specific extraction tools
 │   └── find_missing.py        # Utility to find missing conversions
@@ -32,9 +32,9 @@ This project contains tools and extracted text from the JFK assassination record
 | 2023 | ✅ Complete | Apple Vision OCR | 2,693 | 6.20GB | 2,693 |
 | 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,199 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,484 |
-| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,547 |
+| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,543 | 57.18GB | 53,547 |
 
-Note: 34 files in the 2022 release and 5 files in the 2021 release tie to multiple record numbers listed in the .xlsx files which have more data rows than unique file names (13,263 and 1,491 resptively).
+Note: 34 files in the 2022 release and 5 files in the 2021 release tie to multiple record numbers listed in the .xlsx files which have more rows than unique file names (13,263 and 1,491 resptively). The [2017-2018 release xlsx file](https://www.archives.gov/files/research/jfk/national-archives-jfk-assassination-records-2017-2018-release.xlsx)contains 6 bad links, but [the 2017-2018 release website](https://www.archives.gov/research/jfk/release-2017-2018) lists two files not included in the xlsx in the /additional path. The 2017-2018 release all contains 19 audio files (17 .wav, 2 .mp3).
 
 ## Getting Started
 
@@ -100,17 +100,12 @@ python extraction_scripts/find_missing.py
    - Previous releases have .xlsx files with inconsistent formats
 
 2. **Duplicate Files**
-   - 2017-2018 release contains duplicate file names in downloads
+   - 2017-2018 release contains duplicate file names on the website and in the xslx file
    - 2017-2018 .xlsx file contains 54,636 line items including some duplicate filenames
-   - 2017-2018 reference 54,604 files
-   - 2017-2018 website lists 54,601 line items
-
+   
 3. **Missing Files**
-   - Discrepancies exist between downloaded files and listed totals:
-     - 2023: 13 files missing
-     - 2022: 64 files missing
-     - 2021: 7 files missing
-     - 2017-2018: 107 files missing
+   - 2017-2018 xlsx has 54,604 line items (6 bad links)
+   - 2017-2018 website lists 54,601 line items (3 bad links, two additional files not referenced in the xlsx)
 
 4. **Zero Size Files**
    - A small number of 0kb files were output by the Linux tesseract script for the 2022 and 2017-2018 releases:
@@ -121,7 +116,7 @@ python extraction_scripts/find_missing.py
    - The extracted text contains a substanital amount of OCR errors due to the low quality of many of the input files. 
 
 ### Archive Statistics
-- Total archive size: 67.6 GB
+- Total archive size: 87 GB
 - Total files: 73,439
 - Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
 
