@@ -27,6 +27,11 @@ pip install -r requirements.txt
 python apple_vision_pdf_to_text.py <input_directory> <output_directory>
 ```
 
+```bash
+python apple_vision_pdf_to_text_parallel.py <input_directory> <output_directory> -w [nummber of CPU cores to utilize]
+```
+
+
 ### Arguments
 - `input_directory`: Directory containing PDF files to process
 - `output_directory`: Directory where markdown files will be saved
