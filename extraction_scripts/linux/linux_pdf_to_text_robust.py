@@ -17,6 +17,7 @@ from tqdm import tqdm
 import signal
 import atexit
 from typing import Dict, List, Optional
+import argparse
 
 # Set up logging with both file and console output
 log_file = "pdf_processing.log"
@@ -96,12 +97,10 @@ def log_disk_usage():
 
 def cleanup_temp_files():
     """Clean up temporary files"""
-    try:
-        if os.path.exists(TEMP_DIR):
-            shutil.rmtree(TEMP_DIR)
+    if os.path.exists(TEMP_DIR):
+        logging.info("Cleaning up temporary files...")
+        shutil.rmtree(TEMP_DIR)
         os.makedirs(TEMP_DIR, exist_ok=True)
-    except Exception as e:
-        logging.warning(f"Failed to clean temp files: {e}")
 
 def get_pdf_page_count(pdf_path: str) -> int:
     """Get the total number of pages in a PDF file"""
@@ -132,6 +131,8 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
     Returns True if successful, False otherwise.
     """
     output_path = os.path.join(output_dir, f"{Path(pdf_path).stem}.md")
+    temp_dir = os.path.join(TEMP_DIR, Path(pdf_path).stem)
+    os.makedirs(temp_dir, exist_ok=True)
     
     # Skip if already processed and file exists
     if pdf_path in state.processed_files and is_file_complete(output_path):
@@ -147,9 +148,26 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
             
         logging.info(f"Processing PDF with {total_pages} pages: {pdf_path}")
         
+        # Check for existing page files
+        existing_pages = set()
+        for file in os.listdir(temp_dir):
+            if file.startswith('page_') and file.endswith('.txt'):
+                try:
+                    page_num = int(file.split('_')[1].split('.')[0])
+                    existing_pages.add(page_num)
+                except ValueError:
+                    continue
+        
         # Extract text from each page
         extracted_text = []
         for page_num in range(1, total_pages + 1):
+            # Skip if page was already processed
+            if page_num in existing_pages:
+                logging.info(f"Loading existing page {page_num} of {pdf_path}")
+                with open(os.path.join(temp_dir, f'page_{page_num}.txt'), 'r', encoding='utf-8') as f:
+                    extracted_text.append(f.read())
+                continue
+                
             logging.info(f"Processing page {page_num} of {pdf_path}")
             log_memory_usage()
             log_disk_usage()
@@ -172,6 +190,11 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
             # Extract text from the current page
             text = pytesseract.image_to_string(images[0])
             extracted_text.append(text)
+            
+            # Save page text to temporary file
+            if total_pages > 20:  # Only save individual pages for large files
+                with open(os.path.join(temp_dir, f'page_{page_num}.txt'), 'w', encoding='utf-8') as f:
+                    f.write(text)
             
             # Clean up the image
             images[0].close()
@@ -201,6 +224,10 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
         # Clean up
         del extracted_text
         gc.collect()
+        
+        # Clean up temporary files
+        if os.path.exists(temp_dir):
+            shutil.rmtree(temp_dir)
         
         return True
         
@@ -239,9 +266,18 @@ def process_batch(files: List[str], output_dir: str, state: ProcessingState) -> 
             state.save()
 
 def main():
-    # Define directories from environment variables or defaults
-    input_dir = os.getenv("INPUT_DIR", "original_files")
-    output_dir = os.getenv("OUTPUT_DIR", "extracted_text")
+    # Set up argument parser
+    parser = argparse.ArgumentParser(description="Robustly extract text from PDF files in a directory.")
+    parser.add_argument('input_dir', nargs='?', default='original_files', 
+                        help='Directory containing the PDF files to process (default: original_files)')
+    parser.add_argument('output_dir', nargs='?', default='extracted_text', 
+                        help='Directory to save the extracted text files (default: extracted_text)')
+    
+    args = parser.parse_args()
+
+    # Use parsed arguments for directories
+    input_dir = args.input_dir
+    output_dir = args.output_dir
     
     # Ensure directories exist
     os.makedirs(output_dir, exist_ok=True)
@@ -296,10 +332,10 @@ def main():
             logging.warning(f"  {file}: {retries} retries")
 
 def signal_handler(signum, frame):
-    """Handle interrupt signals"""
+    """Handle interruption signals"""
     logging.info(f"Received signal {signum}, saving state and exiting gracefully...")
-    state = ProcessingState.load()
-    state.save()
+    # Deregister the cleanup function to prevent it from running on exit
+    atexit.unregister(cleanup_temp_files)
     sys.exit(0)
 
 if __name__ == "__main__":
