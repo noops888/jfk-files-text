@@ -168,7 +168,7 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
                     extracted_text.append(f.read())
                 continue
                 
-            logging.info(f"Processing page {page_num} of {pdf_path}")
+            logging.info(f"Processing page {page_num} of {total_pages} {pdf_path}")
             log_memory_usage()
             log_disk_usage()
             
@@ -192,9 +192,8 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
             extracted_text.append(text)
             
             # Save page text to temporary file
-            if total_pages > 20:  # Only save individual pages for large files
-                with open(os.path.join(temp_dir, f'page_{page_num}.txt'), 'w', encoding='utf-8') as f:
-                    f.write(text)
+            with open(os.path.join(temp_dir, f'page_{page_num}.txt'), 'w', encoding='utf-8') as f:
+                f.write(text)
             
             # Clean up the image
             images[0].close()
@@ -207,9 +206,14 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
             # Small delay between pages
             time.sleep(0.5)
         
-        # Combine all text
-        full_text = "\n\n".join(extracted_text)
+        # Assemble the final text with headers
+        file_stem = Path(pdf_path).stem
+        full_text_parts = [f"# {file_stem}\n\n"]
+        for page_num_one_indexed, page_content in enumerate(extracted_text, 1):
+            full_text_parts.append(f"## Page {page_num_one_indexed}\n\n{page_content.strip()}\n\n")
         
+        full_text = "".join(full_text_parts)
+
         # Write to markdown file
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(full_text)
@@ -300,7 +304,11 @@ def main():
         logging.info("No new files to process")
         return
     
-    logging.info(f"Found {len(remaining_files)} files to process")
+    # Log based on whether resuming or starting fresh
+    if state.processed_count > 0:
+        logging.info(f"Found {state.total_files} total files. Resuming processing. {state.processed_count} files already processed, {len(remaining_files)} remaining.")
+    else:
+        logging.info(f"Found {state.total_files} files to process.")
     
     # Process files in batches
     for i in range(0, len(remaining_files), BATCH_SIZE):
