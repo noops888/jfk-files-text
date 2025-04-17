@@ -178,17 +178,18 @@ def extract_text_from_pdf(pdf_path: str, output_dir: str, state: ProcessingState
                 first_page=page_num,
                 last_page=page_num,
                 thread_count=1,
-                dpi=150,
-                grayscale=True,
-                size=(None, 1500)
+                dpi=300,
+                grayscale=True
             )
             
             if not images:
                 logging.error(f"Failed to convert page {page_num}")
                 continue
                 
-            # Extract text from the current page
-            text = pytesseract.image_to_string(images[0])
+            # Extract text from the current page with specific Tesseract config
+            # Language codes: eng, spa, rus, deu (German), fra (French), ita (Italian), bul
+            tesseract_config = '-l eng+spa+rus+deu+fra+ita+bul --oem 1 --psm 3' 
+            text = pytesseract.image_to_string(images[0], config=tesseract_config)
             extracted_text.append(text)
             
             # Save page text to temporary file

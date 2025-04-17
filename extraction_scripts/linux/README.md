@@ -6,17 +6,15 @@ This project contains tools and extracted text from the JFK assassination record
 
 ```
 .
-├── downloader_scripts/        # Scripts for downloading PDF files
-├── extraction_scripts/        # Scripts for converting PDFs to text
-│   ├── linux/                 # Linux-specific extraction tools
-│   │   ├── linux_pdf_to_text.py      # Original version
-│   │   └── linux_pdf_to_text_robust.py # New robust version
-│   ├── macOS/                 # macOS-specific extraction tools
-│   └── find_missing.py        # Utility to find missing conversions
-└── extracted_text/            # Extracted text content
-    ├── release-2025/          # 2025 release files
-    ├── release-2023/          # 2023 release files
-    └── release-2021/          # 2021 release files
+├── downloader_scripts/                         # Scripts for downloading PDF files
+├── extraction_scripts/                         # Scripts for converting PDFs to text
+│   ├── linux/                                  # Linux-specific extraction tools
+│   │   ├── linux_pdf_to_text.py                # Original version
+│   │   ├── linux_pdf_to_text_robust.py         # New robust version
+│   │   └── linux_pdf_to_text_multithreaded.py  # New multithreaded version
+│   ├── macOS/                                  # macOS-specific extraction tools
+│   └── find_missing.py                         # Utility to find missing conversions
+└── extracted_text/                             # Extracted text content    
 ```
 
 ## Current Status
@@ -25,7 +23,7 @@ This project contains tools and extracted text from the JFK assassination record
 |--------------|---------|-------------------|------------------|------|-------------------|
 | 2025 | ✅ Complete | Apple Vision OCR | 2,343 | 7.57GB | 2,359 |
 | 2023 | ✅ Complete | Apple Vision OCR | 2,680 | 6.12GB | 2,693 |
-| 2022 | 🚧 In Progress | Linux PDF to Text | 13,199 | 14.15GB | 13,263 |
+| 2022 | ✅ Complete | Linux PDF to Text | 13,199 | 14.15GB | 13,199 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,491 |
 | 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,497 | 37.76GB | 53,604 |
 
@@ -39,8 +37,10 @@ This project contains tools and extracted text from the JFK assassination record
 
 #### Linux
 ```bash
-sudo apt-get install poppler-utils tesseract-ocr
+sudo apt-get install poppler-utils tesseract-ocr-all
 ```
+
+Note: It is important to install tesseract-ocr-all becuase the source documents contain multiple foreign languages. 
 
 ### Installation
 
@@ -92,9 +92,14 @@ You have two options:
 python extraction_scripts/linux/linux_pdf_to_text.py
 ```
 
-2. Robust Version (recommended for large archives >50,000 PDFs):
+2. Robust Version (recommended for large archives):
 ```bash
 python extraction_scripts/linux/linux_pdf_to_text_robust.py
+```
+
+3. Multithreaded Version (recommended when multiople CPU cores are available):
+```bash
+python extraction_scripts/linux/linux_pdf_to_text_multithreaded.py --threads [number of cores to utilize]
 ```
 
 The robust version includes:
@@ -104,6 +109,7 @@ The robust version includes:
 - Batch processing
 - Error handling and retries
 - Resource monitoring
+- Handles English, Spanish, Russian, Bulgarian, German, French and Italian languages 
 
 ### Custom Directories
 You can specify custom input and output directories using environment variables:
@@ -150,32 +156,6 @@ python extraction_scripts/find_missing.py
 - [Downloader Scripts Documentation](downloader_scripts/README.md)
 - [Extraction Scripts Documentation](extraction_scripts/README.md)
 - [Extracted Text Documentation](extracted_text/README.md)
-
-## Known Issues
-
-### Data Inconsistencies
-
-1. **Release Format Variations**
-   - The release page formats are inconsistent
-   - No .xlsx file is available for the 2025 release
-   - Previous releases have .xlsx files with inconsistent formats
-
-2. **Duplicate Files**
-   - 2017-2018 release contains duplicate file names in downloads
-   - 2017-2018 .xlsx file contains 54,636 line items with duplicate filenames
-
-3. **Missing Files**
-   - Discrepancies exist between downloaded files and listed totals:
-     - 2025: 16 files missing
-     - 2023: 13 files missing
-     - 2022: 64 files missing
-     - 2021: 7 files missing
-     - 2017-2018: 107 files missing
-
-### Archive Statistics
-- Total archive size: 67 GB
-- Total files: 73,205
-- Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
 
 ## Troubleshooting
 
