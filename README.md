@@ -138,5 +138,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- National Archives for providing the JFK assassination records
+- [The National Archives](https://www.archives.gov/research/jfk) for providing the JFK assassination records
 - Contributors to the various open-source tools used in this project 
