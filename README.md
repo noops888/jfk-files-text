@@ -120,6 +120,10 @@ python extraction_scripts/find_missing.py
 - Total files: 73,439
 - Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
 
+## WebUI 
+
+A simple WebUI to query to the completed Files using the DeepSeek R1 Distill Llama 70B LLM is available at [https://jfkfiles.app.](https://jefkfiles.app)  
+
 ## Contributing
 
 1. Fork the repository
