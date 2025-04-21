@@ -1,546 +1,1128 @@
-JFK Assassination System Date: 12/12/20
+# docid-32205077-designated
+
+## Page 1
+
+JFK Assassination System
+
 Identification Form
 
 Agency Information
 
-AGENCY: LBJ
-RECORD NUMBER: _ 177-10002-10104
-RECORD SERIES:  NSF,CF, VIETNAM, STAFF SUMMARIES...VOL. 7, BOX 172
+Date:
+
+12/12/20
+
+AGENCY :
+
+RECORD NUMBER :
+
+RECORD SERIES :
+
 AGENCY FILE NUMBER :
+
+LBJ
+
+177-10002-10104
+
+NSF,CF, VIETNAM, STAFF SUMMARIES... VOL. 7, BOX 172
+
 Document Information
+
+ORIGINATOR:
+
+FROM:
+
+TO :
+
+TITLE:
+
+STATE
+
+DIPLOMATIC SUMMARY
+
 Released under the John F.
-ORIGINATOR: STATE
-
-DATE:
-PAGES:
-
-SUBJECTS :
-
-DOCUMENT TYPE :
-CLASSIFICATION :
-RESTRICTIONS :
-CURRENT STATUS :
-DATE OF LAST REVIEW :
-
-OPENING CRITERIA :
-
-COMMENTS :
 
 Kennedy Assassination Records
+
 Collection Act of 1992 (44 USC
+
 2107 Note). 66327 Date: 12-14-2022
-DIPLOMATIC SUMMARY
 
 All redactions coded 5g2D.
 
-12/04/1963
+DATE: 12/04/1963
+
+PAGES:
+
 18
+
+SUBJECTS :
 
 INTELLIGENCE REPORT
 
-PAPER, TEXTUAL DOCUMENT
-Top Secret
+DOCUMENT TYPE: PAPER, TEXTUAL DOCUMENT
 
-Consulted; Mandatory Review Material
-Withhold
+CLASSIFICATION: Top Secret
 
-12/12/1997
+RESTRICTIONS: Consulted; Mandatory Review Material
 
-DOC. #64
+CURRENT STATUS : Withhold
 
-9.1
-Nw 66327 Docld:32205077 Page 1 Redacted by: NSA
+DATE OF LAST REVIEW :
 
+OPENING CRITERIA:
 
-\Caeaeaetitittitted
+COMMENTS : DOC. #64
 
-sé ROUTING TOP SECRET
+NW 66327 Docld:32205077 Page 1 Redacted by: NSA
 
-Faas Re ey | nit aa (Security Classification)
+---
 
-ss Jos pro} +
+## Page 2
 
-ACTION DIRECT REPLY PREPARE REPLY
-APPROVAL DSPATCH RECOMMENDATION.
+TO
 
-TST RST Se CONTROL NO, Seal Mo.¥20 Gay Noll CB)
+ROUTING
+
+NAME AND ADDRESS
+
+INITIALS
+
+Ones Mathis, Sper. Access NARA 1/14/15
+
+TOP SECRET
+
+(Security Classification)
+
+3
+
+4
+
+ACTION
+
+APPROVAL
+
+CONVENI
+
+CONCURRENCE
+
 REMARKS:
-copy 3 OF
 
-ROM, NAME, ADDAFSS, AND PHONE NO. DATE
-Ame fe acd eNiai p (aps
+DIRECT REPLY
+
+DISPATCH
+
+FLE
+
+INFORIMATION
+
+PREPARE REPLY
+
+RECOMMENDATION
+
+RETURN
+
+SIGNATURE
+
+CONTROL NO. Serial No. 4360,Copy No.WH1 [BJ
+
+COPY 3
+
+OF
+
+FROM: NAME, ADDRESS. AND PHONE NO
+
+Jennifer Cuddebals, IBS Libram 114/15
+
+Handle Via
 
 COMINT
 
 Channels
 
+Access to this document will be restricted to
+
 those approved for the following specific activities:
 
 NATIONAL SECURITY INFORMATION
+
 Unauthorized Disclosure Subject to Criminal Sanctions
 
 TOP SECRET
 
 (Security Classification)
 
-~@ ~~ SG. GS E |G. SO ||. GS |] OS GS |.
-
-/
-¢
-
-/
-
-/
-
-/ |
-
-/
-
-é
-
-p
-
-é
-
-SIPeeaeeaeeadad
-
 NW 66327 Docld:32205077 Page 2 Redacted by: NSA
 
-Bs
+---
 
+## Page 3
 
-ees
-a
-ae
-=
-ee)
-4
-poss
-—
-=
-——
-|
-ae
-—)
+TOP SECRET
 
-mM ES EE EE EH HM a t a am |
->
+I436
 
+Trader
 
-“TOP SECRET
+DIPLOMATIC SUMMARY
 
-US Officials Only Date 3 December 1963
-Serial No. 4360
-Copy No. WH-1
+RIDING
+
+DEPA
+
+UNET
+
+BEATES
+
+TOP SECRET
+
+NW 6692/ Docld.3220504 page 9 Hedbreted-by: NSA
+
+---
+
+## Page 4
+
+TOP SECRET
+
+US Officials Only
+
+Date .
+
+# December 1963
+
+Serial No.
+
+4360
+
+Copy No.
+
+WH-1
 
 CODEWORD MATERIAL
 
-@ This publication is to be seen only by US personnel
-specifically indoctrinated and authorized to receive
+hon neer
+
+Pres
+
+Shown also
+
+fen
+
+Frilbright
+
+DINLOMATIC
+
+SUMMARY
+
+This publication is to be seen only by US personnel
+
+specifically indoctrinated
+
+and authorized to receive
+
 special intelligence information in accordance with the
+
 security regulations provided therefor. It contains in-
+
 formation within the meaning of Title 18, USC, Section 798.
 
 Office of Current Intelligence Indications
+
 Bureau of Intelligence and Research
+
 Department of State
 
 TOP SECRET
 
-NW 66327 Docid:32205077 Page 4 Redacted by: NSA
+NW 66327 Docld:32205077 Page 4 Redacted by: NSA
 
+---
 
-i oi- :
-‘| ROP SECRET DINAR
+## Page 5
 
-NW 66327 Docid:32205077 Page 5 Redacted by: NSA
+TOB
 
+SUMMARY OR CONTENTS
 
-TOP. SECRET DENAR
+4 Dee 63
 
-NW 66327 Docid:32205077 Page 6 Redacted by: NSA
+10 CUBAN REACTION TO DEATM OF PRESIDENT KENNEDY
 
+On 2T. November
 
-"POP SECRET DINAR
+In Havana reported that soon aster rest-
 
-NW 66327 Docid:32205077 Page 7 Redacted by: NSA
+dent Konnedy's desth several authorities and
 
+peraons associated with the Cuban Govemment had
 
-he ompiste texts ef mes 2
-“elted ‘$a the above Brief Notes Will
+openly expressed to him their concern regarding
 
-wive:
+she consequenoes for Cuba and their belies that
+
+any other President would be "'even worse. ""
+
+naded that another concern had been
+
+expounded by Fidel Castro when he had stated that the
+
+reactionaries of the united States wore trying to create
+
+ma stato of anti-soviet and anti-Cuban hysteria.!"
+
+noted thet these had been no 0111028.
+
+announcement in Cuba of sorrow for the death of the
+
+President of the United Statsa.
+
+(300 page 2)
+
+TOR SECRET DINAR
+
+NW 66327 Docld:32205077 Page 5 Redacted by: NSA
+
+---
+
+## Page 6
+
 TOP SECRET DINAR
 
-NW 66327 Docid:32205077 Page 8 Redacted by: NSA
+4 Dee 63
 
+2.
 
-SOP SECRET DINAR 4 Dec 63
+A DENT
 
-i, GUBAN REACTION {0 DEATH OF PRESIDING KENNEDY
-om 27 November
-Havana reported the followings
-"Seon after the death of [President]
+JOHNSON'S LADEN AUERICAN POLICY
 
-jin
+0n: 26
 
-Kennedy several authorities and persons asseeliated
-with the Cuban Gevermment openly expressed te ne thei»
-eoncera relative to the sensequences in regard te
-Cuba and were unanimous in believing that any other
-President would be ‘even worse.’
+Novenber the
 
-“Anether sonsemm of Ghe Cubens was expounded
-im the unexpected speech by Fidel Castro on Sat-
-wurdey when he aeoused the news agensles of trying
-te sommect the Soviet Union and Cubs to the crime
-and asserted that the reactionaries of the United
-Staves ave trying te ersate ‘a state of anti-Soviet
-end anti-Caban hysteria.’
+reported fron Washe
 
-"Surther, yesterday the Porseign Ministry in
-an official conmandqua sonfimned that the indicated
-gseassin tried te obtain a visa te Cuba without
-syocess and repeated that reactionary sestora tricd,
+Inghen that President Johnson had stated to the
 
-NW 66327 Docid:32205077 Page 9 Redacted by: NSA
+Chairren of the Cono. Chet the Governnents of
 
+intin Anerica could be certain that he would
 
+push vigorously Proeident Kennedyls Iatin Anerl-
 
-TOP SECRE? DINAR 4 Dee 63
+can policy and had asked for their contidenes.
 
-i is that way, te inveive beforehand Guba and the
-Soviet Union in the events and sre trying now te
-eover up the masterminds and real motives for the
-OPAs2
+reporced furches that sanator Kunphrey.
 
-"there was ao offieial announcement here of
-sorrow for the death ef the Presiden’ ef the United
-States .*
+who energes 8s the most important figure sn the
 
-Hote: On 23 Nevenber
+Denseratio Pasty because of his leaderants of
 
-veported the feliowing:
+the "'advanced'" contingent of that Perty. had
 
-“fhe reaction in Havana te the assassination
+stated that plans sero mall adranced fer the
 
-of President Kennedy has been calm but cautious.
+denienetion of an Under sooretory es state in
 
-Only iselated Communist groups have shows any rse
+charge or latin Inerscan sirairo and for the
 
-joleing. The radie and newsrseis are repertdag
+seperation or the Alliance for Progress from AID. (See page 4)
 
-objectively and in a serrect manner, without showe
+-i1-
 
-ang wegreG ----- [werds missing] statement by the
+TOS SCONST DINA
 
-goveranent. The newspapers ere printing teday the
+NW 66327 Docld:32205077 Page 6 Redacted by: NSA
 
-statements ef the Cuban Ambaessados te the United
+---
 
-Nations .#
-cuba had Foosived the howe of che cragis death of President Kennasy
-with deep serrow; that all eivilized men always erleved akeut such
+## Page 7
 
-pened and that this was the feeling of the people and Gevernment of
-Bo
+TOP SECRET DENAR
 
-we
-POP SECRET DINAR
+4 Des 63
 
-NW 66327 Docid:32205077 Page 10 Redacted by: NSA
+3o EASE CERMAN SROPACANDA GUIDE ON YUGOSLAY AND ALBANIAN CELEBHATZON
 
+on ct wovenber the Agasetion conmission os the sast
 
+Carnan Socialiat Unity Party (BED) Centrel Committes in
 
-POP SECREP DINAR 4 Dee 63
+Serlin sent a discussion guide to "al1 regular raelpients"
 
-Fo manerce {word aissing] circles were serieusly
-soncerned over the repercussions which the assas-
-sination of the President of the United States aay
+unich contained points to be included in press, radio.
 
-have,"
+and television coverage of the nationa? holidays of vugo-
 
--3-
-GOP SECRET DINAR
+slavis and Albania.
 
-NW 66327 Docid:32205077 Page 11 Redacted by: NSA
+Tho suido noted that treatment of
 
+yugoslavie was to inolude date on econoute and pollsical
 
+develoments of yugoslavia in the poet-ur pariods rugoo
 
-DOP SECRET DINAR 4 Des 63
+slavia's egraoment with other soclalist countales in certaia
 
-2. BSRESIVENT JOUNSON'S LATIN AMERICAN POLICY
-On 26 Novenber
+baste foreign polloy mestions; a liot, of the various
 
-reported the following frem Yashington
+political and econonto delegations chat had been exchanged
 
-"1. President Johnson has invited the Chiefs
-of Latin American Misaiens to the White House and
-te the GAS to meet with him this afterneon at 1530
-hours. :
+between yugonlavia end rest Germany during 1963, an avi-
 
-"2, Last night he told the OAS Counedi Chair-
-gan, Ambassador Facio, that: ‘The Governments of
-Latin America can be certain that I wi22 push vig-
-orously the polisy of President Kemedy with regard
-to our continent.’ "Thds poliey wae the one nearest
-te his heart,’ said President Jehneon, ‘and 1¢ is
-nearest to mine. Have confidence in me.°
+dence of the strengthening of Yugoslar-Best German sela-
 
-"3. Senater Muaphrey, who querges as the est
-important figure in the Demeroratic Party because
-he is the mest outstanding leader of the ‘advanced?
-eontingent of that Party, nesessexy for the equi-
-iibrium and unity of 16 because President Johnsen
+Gaons: and Yugossey tears o. revanchist developuents in
 
-abe
+West Germany. No soference, howaver, was to be made 6o
+
+the expulsion of Yugoslavia from the Coninform in 2943,
+
+and "partiasnship" on the question of still-pending separa-
+
+tion demande on West Germany by Yugoslavia was to be evoided.
+
+In o short concluding parassaph, the neve media were informed
+
+that the ostiesed East Ceran congratulntory message to Albania
+
+would be published only in "Noves Deutsehland," tast other
+
+publications wors to carry a factual report, and that nothing
+
+was to be reported on the orrid al Albanton reception.
+
+-111-
+
+(see pase 6)
+
+TOP SECKSY DINAR
+
+NW 66327 Docld:32205077 Page 7 Redacted by: NSA
+
+---
+
+## Page 8
+
+TOP SECHES DINAR
+
+ERIES NOTES
+
+4 Des 63
+
+1. FRANCE LEST CLAMANY: On 25 November the
+
+Loris reporced thee me Franch Foreign Ministry had describsu
+
+tho 21-22 Novenber De Gaulle-Ernard meeting as a true suecest.
+
+and hed sald that chard eppeared to bee profoundly serious
+
+man with a realistic understending of political probleno.
+
+noted that the wrench had ensured the aucess of
+
+the mosting by thels respestful understanding of the close.
+
+US-German 61e3.
+
+E. ANGOLA-ORGANIZAZION ON AURICAN UNIAL (DAU: On ET November the
+
+(Cho sost of the Iberation
+
+Comnittee of tho O1U) reported to Lagos that the Liberation
+
+Committse wished to transfer 30,000 pounds, (curreney not
+
+specified) to Holden Roborto, President of the Angolan outle
+
+soveremont. To envoy stated that. ne had agreed that
+
+would aot es honest broker" in the transsetion on condition
+
+that it took place in legos.
+
+The completo texts er messages
+
+olted in the chove Ariel Notes will
+
+be surished upon request.
+
+-iVo
+
 TOP SECRET DINAR
 
-NW 66327 Docid:32205077 Page 12 Redacted by: NSA
+NW 66327 Docld:32205077 Page & Redacted by: NSA
 
+---
 
+## Page 9
 
-TOP SECRET DINAR 4% Deo 63
+SO. SHORSE DINAL
 
-4a considered as more ‘conservative,’ told ua
-yeatarday that plans are well advanced for the
-designation of an Under Secretary ef State in
-eharge of Latin Ameriean Affairs and to sesarate
-the Alliance fer Pregress from AID, malting it
-depend dirsetly on the President through an offi-
-elal ef similar rank to that of Mr. Bell, present
-Administrater of AID. These plans will probably
-be made known te us by President Jennsen thia
+# Dee 63
 
-afterneen,"@
+Do CUBAN
 
-Presiden Johnsen dia nes dnelude auch am announcement im his
-statement fo the representatives of the Latin Avsrican eeuntries.
+REACTION
 
-oho
+Oss aT November
 
-OP SECEST DINAR
+Havans reposted
 
-NW 66327 Docid:32205077 Page 13 Redacted by: NSA
+the
 
+following
 
+"Soon anger the
 
-OP SECHET DENAR 4 Dee 63
+death o (resident]
 
-3.
+Kennedy severed
 
-Gn @7 November the Agitation Semmission of the Bast
-Geman Socialist Unity Party (SER) Central
-Cemmittee in Berlin sent the Pollewing dig@
+authorities and porsons aas001ated
 
-cussion guide te all regular recipients:
+with the Cuban Covermont openly sayranied to no thet
 
-"Ong--The 20th anniversary of Ghe Seelalist
-Federated Republic ef Fugosiavia on 29 Neveaber
-1963.0
+concern goletive to the consequences Lu Fogan %
 
-"En predging thie year’s Yugoslavian national
-heliday, the fagt must be emphasized that at in
-the 20th anniversary. At prasentd he development
-and strengthening of the relations with the Se~-
-eialiet Federated Republic of Yugesiavia ts an
-important taek of DDR [1.0., German Demosratic
-Republic] foreign and economic policy, I% da
-therefore recomended that adequate agpaea be
-given to praising the 20th anniversary of She
-Socialist Federated Republic of Yugoslavia.
-Presa, vadic, and television will publagh deta
-en the development ef Yugeslevia and brief
+Cubs and here unanimous an bolieving that any other
 
-oG=
-SOP SECRET DENAR
+president would
 
-NW 66327 Docid:32205077 Page 14 Redacted by: NSA
+he gren Horse.
 
+"Another consert of the Cubans was expounded
 
+• the
 
-: FOP SROREP DEWAR & Bee 63
+unexpoetcd spoos. rides Castro
 
-comentarios devoted especially te the develop
-ment ef relations between the DOR and Vugeslavia,
-‘Beuss Deutschlend’ and the other press organs,
-Fadig, and television will publish the congmatu-
-latery Celegrem of sites Ulbricht, the Chaismen
+Set.
 
-of the Council of State, to Yugoslavian State Prea-
-ident Josip Bros-Pite on 29 Neveuber 1963, A rae
-pert on the recepticn of the Yugoslavian Ambassador
-WAll be published es well,
+urday then
 
-“Qn velations between the DDR and the Socialist
-Fedexatee Republie ef Yugoslavia:
+he neoused the dows agonsies of
 
-"1, Point of departure swat be the ocamon
-traditions of the anti-facist struggle in the
-courte of which the new Yugoslavian state wae
-founded. It 16 advisable te emphasiae the sue-
-e88 of the people's Liberation mevement 4n
-Yugeslavia, of the partigan struggle and the
-sonditions under which the historic resolutions
-ef Jajee were iseved on 29 November 1943, Gn
-29 Movember 1943 in the Bosnian clty of Jajee
+trying
 
-«Fo
-{OP SECRET DINAR
+0IEEO AUG O TANG TRU LOTUR LOTAOS GO: 1001208 09
 
-NW 66327 Docid:32205077 Page 15 Redacted by: NSA
+and
 
+asserted that the sanestonaries of the United
 
+160398
 
-TOP SECRET DZNAR 4 Dee 63
+880
 
-the Ant4-Faclet Couneil for Popular Liberation
+srid
 
-of Yugeslavie wae ineorperated a8 the highest
-provisional state organ. The Natienal Committee
-fer People's Liberation emerged from this as the
-provisional goverment. The heroie fight of the
-Yugesiavian people against the German an¢@ Tvalian
-eceupation was a contribution to the common efforts
-ef the anti-Hitler coalition which, under the
-leadership ef the Seviet Union, finally led te
-the liberation of Yugegiavie, Om 29 Nevember
+ant.-Caban hysteria.
+
+"rather, gestaniay the foreign Minia"y i
+
+an orsholed conmuqué contired that the indiested
+
+asassin t9i0d to obtain & viea to Cuba without
+
+sorens and soponted that entionary 30030r. 4102.
+
+TOP SECRET DEAR
+
+NW 66327 Docld:32205077 Page 9 Redacted by: NSA
+
+---
+
+## Page 10
+
+TOP SEORSE DINAR
+
+# Deo 63
+
+In that way. to Involve betorehand Cuba and the
+
+soviet union in the evante and are trying now te
+
+cover up the masterine and road motives for the
+
+98img-
+
+"ghose was no official announcerent here on
+
+soggoy for the death of the President of the United
+
+States."
+
+Note: On 29 November
+
+reported
+
+the following:
+
+an Haven
+
+had
+
+in Havana to the assassination
+
+Presidont Kennedy has been cain my osutious.
+
+only Isolated Comunist groups have shom any ra
+
+soloing. The radio and newsreeds are reporting
+
+objectely and in & corcoot wanner. althout shen.
+
+Ing rograt ... (voris nissinc statonen by the
+
+governent me nowspaper are printing today the
+
+statonents of tino Cuban Ambassados to the United
+
+Nations *
+
+-m November
+
+cuban in delegate lochuge stared in Now Yor that
+
+Cube had received
+
+ners of the tragle death of residens Kennedy
+
+math deep seron:
+
+that al. elvilized man always grieved about sue
+
+events; and mat
+
+the feeling as the people and loverment o.
+
+Cube.
+
+-200
+
+TOD SECRET DINAR
+
+NW 66327 Docld:32205077 Page 10 Redacted by: NSA
+
+---
+
+## Page 11
+
+TOP SECRET DINAR
+
+8 280 63
+
+"a [wose niesing eircles vere serously
+
+concerned over she repercussions which the aass
+
+sanation of the Presiden; of tho inited Stated may
+
+have."
+
+IOD SHORNY DINAR
+
+NW 66327 Docld:32205077 Page 11 Redacted by: NSA
+
+---
+
+## Page 12
+
+TOP SECRET DINAR
+
+63
+
+PRESIDENT JOHNSON'S LATIN ANTICAN BOLICY
+
+08
+
+26 November
+
+reported the feltoning frem Washington:
+
+President Johnson has Invited the Chiefs
+
+of Istin Anariaon Missions to the Vite House and
+
+to the ons to mest with hin this artereon at 1530
+
+hours •
+
+*2. Last night he told the dAs Counoll Chair
+
+man, Ambassador 18010, ha:
+
+lyne Governonts of
+
+Latin Amerioa can he certain that 1 will mush v
+
+orously the polley of Fresident Kemedy with sogard
+
+so ous continent. This polloy nas the one nasroat
+
+to bis heart, nald Presidon: Johnson, "and 1t 18
+
+nearoat to mine. Have confidenee in mg.
+
+"3. Sonator haphrey to emerges as the most
+
+Important figure In the Denergrasse Fasty beouse
+
+he as the most outstanding lender of the "advaneed'
+
+contingent of that farty, mosssary for the eud
+
+11brhm and walty or 1%
+
+hesaune Frosident Johnson
+
+TO? SECRET DINAR
+
+NW 66327 Docld:32205077 Page 12 Redacted by: NSA
+
+---
+
+## Page 13
+
+VINIO MMONS 40:
+
+1 DeG 63
+
+Ia donaldered as more "eonseryative." told us
+
+jesterday that plans are well advanded for the
+
+desIgnation of an Under Secretary o1 State In
+
+Charge of Istan Amrican Affairs and to separate
+
+Che ALliance fOr Progras froM AID, Baling t
+
+depend sisutly on the Iros dant throngh an att
+
+*1a1 of similar rank 60 that o1 Mr. Bell, present
+
+Admirecrator on AID. those plans wild probably
+
+he mede snown to un by Pronident Johnaen thin
+
+- done Johnson did not inelude such an announcemont in hig
+
+statement to the representatives of the Latin Arrican countries
+
+FOr SECRET DINAR
+
+---
+
+## Page 14
+
+SECES. DINAR
+
+4 D90 69
+
+30
+
+GERMAN FRORALANDA GUIDE
+
+ON YUGOSTAY AND ALPANIAN CRLNSRASIONE
+
+On 27 November the Agitetion Lounanion of the Bast
+
+Cornan
+
+Socialist Unity Farty (SED) Centrad
+
+23ahh
+
+sent the solioning
+
+musion gulde to all somlar roeipiente:
+
+"One-Tho
+
+?och anniversary or the 1oc .212s6
+
+Fodernted Repbile of lugosiaris on 29 Neventer
+
+1963.
+
+BI prening this year's Lagonlarien national
+
+holley, the last met ba caphasinod that 16 18
+
+the 20ch annavorsary. At procent sha develoment
+
+280
+
+strengthening or the relations sith the 30.
+
+•Intat Federated tombide or Csoslavia 10 an
+
+Republio] foreign and sconcuis portoy, L& 10
+
+thorotore roomended that stequate spreo be
+
+given to preising the 20th amlverary o the
+
+Socialist Peterased Rombiag or hugoslava.
+
+2708, 7260 and $910% son sc publish deca
+
+<208
+
+dovelement or lesslavis and brier
+
+NOR
+
+SECRET DINAR
+
+NW 66327 Docld:32205077 Page 14 Redacted by: NSA
+
+---
+
+## Page 15
+
+TOY SECRES DEMAR
+
+I Dao 63
+
+cementeres devoted espe0.slly to r develo
+
+ment of sIstions betren ene Din an Lugestevis.
+
+"Nones Deutschland and the other press organs.
+
+rade and tslouision sid mollus the congrate.
+
+latory selegran
+
+" Che comest o scate. to moslarian state Pre
+
+Ident Fosal Eros 1tO on 29 Noremier 1963. A 39-
+
+port on the recaption or
+
+the
+
+Lugonleven Aubarsador
+
+"On relations botmen the Don and the soelalet
+
+Fedorated Remblse o Jugoslavia:
+
+*Do Point a departure mint be the comon
+
+tra6 tom
+
+o" the ants-rachut osmsele a the
+
+course of inch the ner Zugoslavan state sea
+
+Sounded.
+
+It 18 advinalie Ee enphasire the sue.
+
+ness o. the paople's Iteratien movement u
+
+enlavin, of the partic struggle, and the
+
+cond sienn undor shich tre historie gasolutione
+
+o1 Jaico ver lamad on 29 November dalS. On
+
+29 November 1943 in the Bosnian city of 19100
+
+TOP SECRET DINAR
+
+NW 66327 Docld:32205077 Page 15 Redacted by: NSA
+
+---
+
+## Page 16
+
+TOY SECRET DEMAN
+
+& Dee 63
+
+the Ant. "Tacket Council for Yowular LIbertion
+
+0 7ug0slav1s 48
+
+Incorporated as the highest
+
+provisioned state organ The Neckonal Coumittee
+
+for People & Liberation enarged frn this as ene
+
+provisional
+
+governaont
+
+The horgie Lain
+
+no the
+
+Yugoslavian peoplo againet tho Cern and Italias
+
+• concentson to the souen erforts
+
+of the ant Hitler coalition men under the
+
+loadership of the soviet union analy ded to
+
+the liberation of Yugosiavie.
+
+On 29 Noventer
+
 2945 the constitutional assembly accepted the
-aecinration liquidating the monereky an@ announced
-the oreation of the Federated People’s Republic
-ef Yugoslavia.
 
-"2. Tho immediate post-war develomment of
-Yugeslavia shewld be characteriged in seneral
-etroves without mentioning the events ef 1948
-(2.0.5 Yugosiavia's expulsion fron the Cominform);
-several index figures from the preeent tine ean
-be mentioned which shew definite econenie successes
+decision Iquluring the menerony and anounceu
 
-“B=
-FOP SRCRET DINAR
+the creation of the rolerated reople's Repubile
 
-NW 66327 Docid:32205077 Page 16 Redacted by: NSA
+or Fugoslays.
 
+82o Tho armediate postoms develorent ot
 
+rugoslavis should be anarcterined in genese.
 
-FOP SECKRE DENAR & Bee 63
+stroked thout montioning the events of 1948
 
-ef the Yugoslavian workers in the development of
-sooialign,
+I Haroslavia's expulsion fren the Cominior!:
 
-"3, There are certain euszon points of view
-betesen Yugoslavia and other seeislist countries
-en basic questions of invermationsl development
-suoh as disagmament, peaceful evexiatence, struggle
-against eolonieliem, ete. The process of strength~
-ening Yugosiav relations with ether secialist seun-
-tries should be mentioned in reference to the
-Kheushehev visit (1.¢0., in Auguet-September 1963].
-Particular impertance shovid be attached te the
-apmment that Yugeslavia is a eeolalist country.
+never. indes figures fro the present tine 048
 
-*%, Phe fears of the Yugoslav public of
-pevanchiat development in Yeat Germany ané the
-provesative attack® on Yugoslavia sheuld be pub-
-lished in She articles. Up to new for example the
-trial ef the assessing fran the ranke of the
-Crestian Ustaecha in West Germany is being
-Gragged oub. Moreover importance must be ate
-tached te the pesitien thet the eonelusien of &
+bo mentioned which snow dorinite sooncute sueceases
 
-aGe
-GOP SECRET DINAR
+TOP SECRET DINAR
 
-NW 66327 Docid:32205077 Page 17 Redacted by: NSA
+NW 66327 Docld:32205077 Page 16 Redacted by: NSA
 
+---
 
+## Page 17
 
-POF SEOREY DINAR & Des 63
+TOP SHOREE DENAR
 
-German peace treaty and the solution ef the West
-Horlin problem lie ebjectively in the interests
-of Yugoslavia. Partiganship en the questien of
-stillepending reparation demands on West Germany
-by Yugosiavie should be avoided.
+63
 
-"5. £6 ie advisable to praige the intemeational
-relations in the current year, particuleply eensider-
-ing econesiec relations.
+of the Lugoslavian vorkero in the developmont o.
 
-“Ene feasly September] visit of a delegation
-wider the leadership of Comrade Apel [1.e., Bast
-Gemman State Planning Commiesion Chaimman] on the
-eecasion of the Zagreb Fair and the [late September]
-visit of Comvade Belkew [Foreign Trade Minister] to
-Yugosiavie were significant in strengthening these
-welations. Gn the oseasion ef this vieit there oc0=0
-{words missing), economic committes ang a elgnificans
-expansion of trade, at least 30 per cent, for the coming
-year was achieved. The conclusion ef the foreiga trade
-protecols for 1963 is immediately imminent. More-
-ever the partielpation of a delegatien ef the BDKZ
+83. Thong are
 
-2i0=
-FOP SECRET PINAR
+Bern coston ponte 0x 403
 
-NW 66327 Docid:32205077 Page 18 Redacted by: NSA
+betsen Yugoslavin and other nocialist outries
 
+on manse questions
 
+e. Aaternational developnent
 
-BOP SECRET DINAR 4 Dee 63
+aginst colonels, 160.
 
-{League of Communiat Yugoslavia) under Comede
-Vishovie in the consultation ef the Sixth Party
-Congress was very important for tne relations.
+The process et strangth
 
-"a Bod (Pree German Youth) delegation under
-Comrade Werner Lamberts participated in the Yugee
-Siavian Youth Cengress last January. In April
-@ delegation of the SBI [Seeialist League of the
-Werking People of Yugoslavia] wnéer Comrade
-Milentije Popevie visited the DOR. The epirit
-of ths relatiens between the two countries was
-demenstrated iwpressively in the NDR assiotance
-measures fer the earthqueke-dcetroyad sity of
-Skopje.
+with ether sociellet coun
 
-"She agreement of 22 May 1963 on the adjust-
-ment of unsettled problems fron mr and pre-war
-times should not be gone inte in deteii. There
-aye aise conditions fer further improvement and
-extension of international relations for 196%,
+Enrashchay viit In. In August-Septenter 19631.
 
-"This year @ new constitution ws approved
-for Yugoslavia, Please observe the official atate
+Ferdoular Impertance should be actached to the
 
-wie
-ROP SECRED DINAR
+argment that sugesisis 1a & nod.alist orts.
 
-NW 66327 Docid:32205077 Page 19 Redacted by: NSA
+sa, the fong
 
+of she Igoslav pile of
 
+rovanonist doveloment in lost torny and the
 
-ROP SECRET DINAR & Dee 63
+accoke on yugosay shouse be made
 
-designation ‘Gesialist Bederated Republic of
-Yugesiavie.' The official designation of the
-Yugeslay national holiday ig ‘Republic Day.!
+Ashed in the arcoles Up se nor for example Che
 
-“Pyn-<Phe Albanian National Heliday on 29
-Noveuber 1963.
+Crostian staushs in love Lemany is being
 
-“Phe songratulatery of the Comeil of State
-and the Counell of Ministers of the DDR en the
-i9th anniversary of the Mberation of Albania
-from faclam will be published on 23 November 1963
-only in "Neues Deutschland.’ Other prese and mub-
-Lieation organs will present @ factual report.
-Nething will be reporteé in the press on the reo
-eeption of the Albanian Chang) a°affaires."
+crassed out.
 
-oiB=
-POP SECRET DINAR
+Morsovng importened mst be as
 
-NW 66327 Docid:32205077 Page 20 Redacted by: NSA
+tached to the position that the conelusion o o
+
+TO: SECRET DINAR
+
+NW 66327 Docld:32205077 Page 17 Redacted by: NSA
+
+---
+
+## Page 18
+
+TOS SEMES DINAR
+
+A DAR 63
+
+Serman perce Brosty and the solution at the west
+
+BarIn problen Lie objeetively in the Intereste
+
+of Yugoslavie. Partranshe on the get son o
+
+s1I2- ponding roparation dennas on Weet Comany
+
+by Yugoslavia should bo evelded.
+
+15. It 1 advinable to praise the intomational
+
+galations in the current yeur. partienlariy consider
+
+Ing econene relater:
+
+she learly septenter! vait of & delegation
+
+undes the
+
+Loadership o& Conrade Arel 1®= Enat
+
+Cornan State Planning Commieszen Chairman on tho
+
+cocasion of tno Zagmn Fair and the Ilate September
+
+visit o Comrade Balkor Forcien Trade Minister &o
+
+Eugoslavie were
+
+sign deane in essengthening these
+
+solations. On the oscasion o the vut there ---
+
+Ivords missingl, econonie comittee
+
+and & Bign Leant
+
+year me sonteved. The conclusion of the foreign erade
+
+protocols for 1963 1s Amalataly Iminant. More"
+
+over the partreipation of a delogation of the soil
+
+-110-
+
+TOP SACRED DINAR
+
+NW 66327 Docld:32205077 Page 18 Redacted by: NSA
+
+---
+
+## Page 19
+
+TOP SEONCE DINAR
+
+* DOG 63
+
+¿league or Cominist Yugoslaria, under Comrade
+
+VIanov2o 1a
+
+the
+
+consultation of the sint Farty
+
+Congress
+
+mas very amportant for the relatione.
+
+"AND (Iro deman Yound delegation under
+
+Comrade
+
+Somes Lamberts participated in the lige
+
+slavian Youth Congress Last January. In April
+
+e delegation on the sely [spelalist Lengue of the
+
+Wording Foopie of goalavle) under Conade
+
+of the rolations
+
+betran the two countries as
+
+donenstrated
+
+Iepressively In the Lon arsistance
+
+mares LorCe earthquar destroyed daby 91
+
+8H0p10.
+
+the agreement el 22 May 1963 on the adjust
+
+ment o unsettled problems fron mr and
+
+times
+
+should not bo
+
+gone anth in dotal. There
+
+370 aise conditions fer further Inprovement and
+
+entension of International solatiens for 1964.
+
+Bhis year & not conatitution mas epproved
+
+for lugosiavia, Please oboere the orfiolnd state
+
+-д]-
+
+TOP SECRET DINAR
+
+NW 66327 Docld:32205077 Page 19 Redacted by: NSA
+
+---
+
+## Page 20
+
+TOP SECRET DINAR
+
+8 Dee 63
+
+designation 'Socialise Federated Remblie of
+
+sugesiavis.
+
+me or scist denientdon of the
+
+yugoalay nation. solidy de Repaise Day.
+
+B The nabanian Nstional Hollany on 29
+
+Hovenber 1963.
+
+he congratiatory of the Comesa of State
+
+and the Cone. o. Ministers so tie Don on the
+
+19th amivorsazy of the Liberation or Albania
+
+Fron Isolen wild be mublished on 28 Noventer 1963
+
+ondy In 'Neus Deutsehland."
+
+Other press sud mor
+
+Jacation argus mind present & lets report.
+
+Nothing mild be seported in the press or the 19-
+
+coption or the Albunian Charge d'Astairs.
+
+• 12=
+
+TOP SECRET DINAR
+
+NW 66327 Docld:32205077 Page 20 Redacted by: NSA
+
+---
 
