@@ -32,7 +32,7 @@ This project contains tools and extracted text from the JFK assassination record
 | 2023 | ✅ Complete | Apple Vision OCR | 2,693 | 6.20GB | 2,693 |
 | 2022 | ✅ Complete | Apple Vision OCR | 13,199 | 14.15GB | 13,199 |
 | 2021 | ✅ Complete | Apple Vision OCR | 1,484 | 1.36GB | 1,484 |
-| 2017-2018 | 🚧 In Progress | Linux PDF to Text | 53,543 | 57.18GB | 53,547 |
+| 2017-2018 | 🚧 In Progress | Apple Vision OCR | 53,543 | 57.18GB | 53,547 |
 
 Note: 34 files in the 2022 release and 5 files in the 2021 release tie to multiple record numbers listed in the .xlsx files which have more rows than unique file names (13,263 and 1,491 resptively). The [2017-2018 release xlsx file](https://www.archives.gov/files/research/jfk/national-archives-jfk-assassination-records-2017-2018-release.xlsx) contains 6 bad links, but [the 2017-2018 release website](https://www.archives.gov/research/jfk/release-2017-2018) lists two files not included in the xlsx in the /additional path. The 2017-2018 release all contains 19 audio files (17 .wav, 2 .mp3).
 
