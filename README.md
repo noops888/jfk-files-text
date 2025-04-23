@@ -119,6 +119,7 @@ python extraction_scripts/find_missing.py
 - Total archive size: 87 GB
 - Total files: 73,485
 - Extracted text available at: [jfk-files-text](https://github.com/noops888/jfk-files-text/)
+- Available as a data set on Hugging Face: [https://huggingface.co/datasets/mysocratesnote/jfk-files-text/](https://huggingface.co/datasets/mysocratesnote/jfk-files-text/tree/main)
 
 ## WebUI 
 
