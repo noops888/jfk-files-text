@@ -23,7 +23,6 @@ File name are referred to in the .xlsx files and on archives.gov with mixed case
 ## Directory Structure
 ```
 extracted_text/             
-<<<<<<< HEAD
 ├── releases/           # 2017 release 
 │	├── additional/     # 2017 release 
 │	├── 2018/           # 2018 release    
