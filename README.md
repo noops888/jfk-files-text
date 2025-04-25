@@ -106,11 +106,6 @@ python extraction_scripts/find_missing.py
 3. **Missing Files**
    - 2017-2018 xlsx has 54,604 line items (6 bad links)
    - 2017-2018 website lists 54,601 line items (3 bad links, two additional files not referenced in the xlsx)
-
-4. **Zero Size Files**
-   - A small number of 0kb files were output by the Linux tesseract script for the 2022 and 2017-2018 releases:
-     - 2022: 54 0kb files
-     - 2017-2018: (need to update when complete)
     
 4. **OCR Errors**
    - The extracted text contains a substanital amount of OCR errors due to the low quality of many of the input files. 
