@@ -14,7 +14,7 @@ This project contains tools and extracted text from the JFK assassination record
 │   ├── macOS/                 # macOS-specific extraction tools
 │   └── find_missing.py        # Utility to find missing conversions
 └── extracted_text/            # Extracted text content               
-    ├── releases/              # 2017 release 
+    └── releases/              # 2017 release 
         ├── additional/        # 2017 release 
         ├── 2018/              # 2018 release 
         ├── 2021/              # 2021 release
