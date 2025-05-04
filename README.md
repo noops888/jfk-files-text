@@ -118,7 +118,7 @@ python extraction_scripts/find_missing.py
 
 ## WebUI 
 
-A simple WebUI to query to the completed Files using the DeepSeek R1 Distill Llama 70B LLM is available at [https://jfkfiles.app.](https://jefkfiles.app)  
+A simple WebUI to query the archive using the DeepSeek R1 Distill Llama 70B LLM is available at [https://jfkfiles.app.](https://jefkfiles.app)  
 
 ## Contributing
 
