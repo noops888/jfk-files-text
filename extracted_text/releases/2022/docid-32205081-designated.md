@@ -1,4 +1,22 @@
-# docid-32205081-designated
+---
+file_name: 2022/docid-32205081-designated.pdf
+record_number: 177-10002-10100
+nara_release_date: 12/15/2022
+formerly_withheld: Redact
+agency: 
+document_date: 11/22/1963
+document_type: PAPER, TEXTUAL DOCUMENT
+file_number: 
+to_name: 
+from_name: 
+title: 
+number_of_pages: 4
+originator: CIA
+record_series: NSF, INTELLIGENCE BRIEFINGS, 11/23/63-12/5/63, BOX 1
+review_date: 03/30/2022
+comments: DOC. #5B
+pages_released: 6
+---
 
 ## Page 1
 
@@ -353,4 +371,3 @@ TOP SENNET DINAR
 NW 66327 Docld:32205081 Page 6 Redacted by: NSA
 
 ---
-

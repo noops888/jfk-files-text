@@ -1,4 +1,22 @@
-# 124-10271-10033_multirif_redacted
+---
+file_name: 124-10271-10033_multirif_redacted.pdf
+record_number: 124-10271-10033
+nara_release_date: 03/18/2025
+formerly_withheld: 
+agency: 
+document_date: 
+document_type: 
+file_number: 
+to_name: 
+from_name: 
+title: 
+number_of_pages: 
+originator: 
+record_series: 
+review_date: 
+comments: 
+pages_released: 
+---
 
 ## Page 1
 
@@ -19167,4 +19185,3 @@ ircluding telephonic contact from him 6/2/75, by s. F. Phillips.
 NEW M606 Roxld32989611 Page 210
 
 ---
-

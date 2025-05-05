@@ -1,4 +1,22 @@
-# 124-10183-10277_multirif_redacted
+---
+file_name: 124-10183-10277_multirif_redacted.pdf
+record_number: 124-10183-10277
+nara_release_date: 03/18/2025
+formerly_withheld: 
+agency: 
+document_date: 
+document_type: 
+file_number: 
+to_name: 
+from_name: 
+title: 
+number_of_pages: 
+originator: 
+record_series: 
+review_date: 
+comments: 
+pages_released: 
+---
 
 ## Page 1
 
@@ -20789,4 +20807,3 @@ END
 NW 88326 Docld:32989603 Page 224
 
 ---
-

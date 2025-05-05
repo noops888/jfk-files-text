@@ -1,4 +1,22 @@
-# jfkoh-jeb-02-tr
+---
+file_name: jfkoh-jeb-02-tr.pdf
+record_number: 176-10030-10032
+nara_release_date: 12/15/2017
+formerly_withheld: In Full
+agency: 
+document_date: 
+document_type: 
+file_number: 
+to_name: 
+from_name: 
+title: 
+number_of_pages: 
+originator: 
+record_series: 
+review_date: 
+comments: 
+pages_released: 
+---
 
 ## Page 1
 
@@ -2429,4 +2447,3 @@ Young, Stephen M., 102
 Youngblood, Rufus W., 108
 
 ---
-

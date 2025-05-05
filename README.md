@@ -20,8 +20,7 @@ This project contains tools and extracted text from the JFK assassination record
         ├── 2021/              # 2021 release
         ├── 2022/              # 2022 release
         ├── 2023/              # 2023 release
-        ├── 2025/0318/         # 2025 release
-        └── reports/           # Reports and statistics on completed extractions    
+        └── 2025/0318/         # 2025 release
 ```
 
 ## Current Status

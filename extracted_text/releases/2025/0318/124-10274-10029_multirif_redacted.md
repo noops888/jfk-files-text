@@ -1,4 +1,22 @@
-# 124-10274-10029_multirif_redacted
+---
+file_name: 124-10274-10029_multirif_redacted.pdf
+record_number: 124-10274-10029
+nara_release_date: 03/18/2025
+formerly_withheld: 
+agency: 
+document_date: 
+document_type: 
+file_number: 
+to_name: 
+from_name: 
+title: 
+number_of_pages: 
+originator: 
+record_series: 
+review_date: 
+comments: 
+pages_released: 
+---
 
 ## Page 1
 
@@ -27631,4 +27649,3 @@ IW-882MU6 19 1916
 Jocld:32989627 Page 30
 
 ---
-

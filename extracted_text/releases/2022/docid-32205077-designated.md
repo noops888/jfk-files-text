@@ -1,4 +1,22 @@
-# docid-32205077-designated
+---
+file_name: 2022/docid-32205077-designated.pdf
+record_number: 177-10002-10104
+nara_release_date: 12/15/2022
+formerly_withheld: Redact
+agency: 
+document_date: 12/04/1963
+document_type: PAPER, TEXTUAL DOCUMENT
+file_number: 
+to_name: 
+from_name: 
+title: DIPLOMATIC SUMMARY
+number_of_pages: 18
+originator: STATE
+record_series: NSF,CF, VIETNAM, STAFF SUMMARIES...VOL. 7, BOX 172
+review_date: 03/30/2022
+comments: DOC. #64
+pages_released: 20
+---
 
 ## Page 1
 
@@ -1125,4 +1143,3 @@ TOP SECRET DINAR
 NW 66327 Docld:32205077 Page 20 Redacted by: NSA
 
 ---
-

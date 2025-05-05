@@ -1,4 +1,22 @@
-# 62-116464-108-charge_out_form
+---
+file_name: 62-116464-108-charge_out_form.pdf
+record_number: 124-10264-10188
+nara_release_date: 12/15/2017
+formerly_withheld: In Full
+agency: 
+document_date: 
+document_type: 
+file_number: 62-116464-54X, 108
+to_name: 
+from_name: 
+title: 
+number_of_pages: 
+originator: 
+record_series: HQ JUNE MAIL FOLDER
+review_date: 
+comments: 
+pages_released: 
+---
 
 ## Page 1
 
@@ -29,4 +47,3 @@ File Number
 Permanent Serial Charge Out
 
 ---
-
