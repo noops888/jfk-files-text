@@ -1,23 +1,23 @@
 ---
-file_name: 2022/docid-32205081-designated.pdf
-record_number: 177-10002-10100
-nara_release_date: 12/15/2022
-formerly_withheld: Redact
-agency: 
+agency: ''
+comments: 'DOC. #5B'
 document_date: 11/22/1963
 document_type: PAPER, TEXTUAL DOCUMENT
-file_number: 
-to_name: 
-from_name: 
-title: 
-number_of_pages: 4
+file_name: docid-32205081-designated.pdf
+file_number: ''
+formerly_withheld: Redact
+from_name: ''
+nara_release_date: 12/15/2022
+number_of_pages: '4'
 originator: CIA
+pages_released: '6'
+record_number: 177-10002-10100
 record_series: NSF, INTELLIGENCE BRIEFINGS, 11/23/63-12/5/63, BOX 1
+release_year: 2022
 review_date: 03/30/2022
-comments: DOC. #5B
-pages_released: 6
+title: ''
+to_name: ''
 ---
-
 ## Page 1
 
 JFK Assassination System

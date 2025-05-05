@@ -1,23 +1,23 @@
 ---
-file_name: 2022/docid-32205077-designated.pdf
-record_number: 177-10002-10104
-nara_release_date: 12/15/2022
-formerly_withheld: Redact
-agency: 
+agency: ''
+comments: 'DOC. #64'
 document_date: 12/04/1963
 document_type: PAPER, TEXTUAL DOCUMENT
-file_number: 
-to_name: 
-from_name: 
-title: DIPLOMATIC SUMMARY
-number_of_pages: 18
+file_name: docid-32205077-designated.pdf
+file_number: ''
+formerly_withheld: Redact
+from_name: ''
+nara_release_date: 12/15/2022
+number_of_pages: '18'
 originator: STATE
+pages_released: '20'
+record_number: 177-10002-10104
 record_series: NSF,CF, VIETNAM, STAFF SUMMARIES...VOL. 7, BOX 172
+release_year: 2022
 review_date: 03/30/2022
-comments: DOC. #64
-pages_released: 20
+title: DIPLOMATIC SUMMARY
+to_name: ''
 ---
-
 ## Page 1
 
 JFK Assassination System
