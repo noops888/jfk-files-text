@@ -32,12 +32,16 @@ Release	Rows → after merge	Notes
 2025	n/a → hand‑curated	NARA supplied no spreadsheet; built from website list.
 
 **Merge logic (2017‑2018 “suspect add‑info” groups)**
+
 	•	Text columns
 One value blank → keep the other; one is substring of the other → keep the longer; otherwise join with “, ”.
+
 	•	Numeric columns
 Largest non‑blank value.
+
 	•	Date columns
 Most recent date.
+
 	•	Flags / Withheld status
 Keep the least restrictive label (“Released in Full” > “Redacted” > “Withheld”).
 
