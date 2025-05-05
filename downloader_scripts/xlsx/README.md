@@ -14,7 +14,7 @@ original/                       raw .xlsx files from archives.gov
 standardized_columns/           same files, columns harmonised only
 standardized_columns_corrected/ final cleaned versions (duplicates merged, links fixed)
 
-**_Why the cleanup matters_**
+**Why the cleanup matters**
 
 Issue in the raw sheets	What we fixed
 Duplicate filenames with different Record Numbers	Collapsed to one row, Record Numbers comma‑separated
@@ -22,7 +22,7 @@ Same PDF stored in several folders (2018/, 08/, additional/)	Counted as one logi
 Broken / missing links (2017‑2018)	Removed six dead links, added two “additional” PDFs
 Inconsistent column names	Mapped all sheets to a single header set
 
-**## Per‑release result**
+**Per‑release result**
 
 Release	Rows → after merge	Notes
 2017‑2018	54 636 → 53 547	198 multi‑record groups merged, 56 metadata‑diff groups merged, 1 exact duplicate dropped. Two “additional” PDFs added, six dead links removed.
