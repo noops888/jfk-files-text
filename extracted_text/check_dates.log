@@ -82,13 +82,11 @@ releases/157-10011-10012.md                                   document_date    0
 releases/docid-32424069.md                                    document_date    12/00/1963            → day is out of range for month: 12/00/1963
 releases/180-10143-10345.md                                   document_date    00/00/1976            → month must be in 1..12: 00/00/1976
 releases/157-10011-10006.md                                   document_date    06/00/1975            → day is out of range for month: 06/00/1975
-releases/194-10001-10437.md                                   document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/104-10220-10264.md                                   document_date    09/01/0000            → year 0 is out of range: 09/01/0000
 releases/104-10186-10346.md                                   document_date    12/03/0000            → year 0 is out of range: 12/03/0000
 releases/178-10004-10420.md                                   document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/157-10014-10144.md                                   document_date    00/00/1976            → month must be in 1..12: 00/00/1976
 releases/104-10308-10278.md                                   document_date    12/01/0000            → year 0 is out of range: 12/01/0000
-releases/194-10012-10139.md                                   document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/docid-32202182.md                                    document_date    00/00/1975            → month must be in 1..12: 00/00/1975
 releases/157-10002-10001.md                                   document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/docid-32272270.md                                    document_date    00/00/1978            → month must be in 1..12: 00/00/1978
@@ -153,7 +151,6 @@ releases/docid-32282252.md                                    document_date    0
 releases/104-10297-10241.md                                   document_date    11/11/0000            → year 0 is out of range: 11/11/0000
 releases/docid-32392667.md                                    document_date    11/24/0000            → year 0 is out of range: 11/24/0000
 releases/docid-32112987.md                                    document_date    06/00/1975            → day is out of range for month: 06/00/1975
-releases/194-10001-10438.md                                   document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/104-10219-10122.md                                   document_date    01/19/0000            → year 0 is out of range: 01/19/0000
 releases/docid-32281842.md                                    document_date    04/00/1975            → day is out of range for month: 04/00/1975
 releases/104-10246-10036.md                                   document_date    05/02/0000            → year 0 is out of range: 05/02/0000
@@ -178,7 +175,6 @@ releases/2022/104-10219-10031.md                              document_date    0
 releases/2022/104-10105-10211.md                              document_date    09/09/0000            → year 0 is out of range: 09/09/0000
 releases/2022/157-10005-10320.md                              document_date    00/00/1976            → month must be in 1..12: 00/00/1976
 releases/2022/180-10143-10467.md                              document_date    00/00/1978            → month must be in 1..12: 00/00/1978
-releases/2022/docid-34431971.md                               document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/2022/104-10119-10176.md                              document_date    11/25/0000            → year 0 is out of range: 11/25/0000
 releases/2022/157-10004-10132.md                              document_date    00/00/1976            → month must be in 1..12: 00/00/1976
 releases/2022/104-10217-10190.md                              document_date    08/11/0000            → year 0 is out of range: 08/11/0000
@@ -251,7 +247,6 @@ releases/2022/176-10036-10023.md                              document_date    8
 releases/2022/178-10003-10311.md                              document_date    03/00/1975            → day is out of range for month: 03/00/1975
 releases/2022/157-10011-10013.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/2022/104-10177-10078.md                              document_date    11/29/0000            → year 0 is out of range: 11/29/0000
-releases/2022/docid-34431976.md                               document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/2022/104-10267-10407.md                              document_date    11/29/0000            → year 0 is out of range: 11/29/0000
 releases/2022/157-10014-10228.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/2022/157-10011-10008.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
@@ -267,7 +262,6 @@ releases/2022/docid-34431973.md                               document_date    0
 releases/2022/104-10176-10037.md                              document_date    02/12/0000            → year 0 is out of range: 02/12/0000
 releases/2022/104-10177-10076.md                              document_date    11/29/0000            → year 0 is out of range: 11/29/0000
 releases/2022/197-10002-10190.md                              document_date    00/00/1963            → month must be in 1..12: 00/00/1963
-releases/2022/docid-34431977.md                               document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/2022/176-10037-10460.md                              document_date    00/00/63              → month must be in 1..12: 00/00/63
 releases/2022/104-10219-10122.md                              document_date    01/19/0000            → year 0 is out of range: 01/19/0000
 releases/2022/157-10011-10009.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
@@ -416,7 +410,6 @@ releases/2018/104-10308-10278.md                              document_date    1
 releases/2018/157-10002-10001.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/2018/180-10142-10106.md                              document_date    00/00/1978            → month must be in 1..12: 00/00/1978
 releases/2018/180-10147-10192.md                              document_date    03/00/1979            → day is out of range for month: 03/00/1979
-releases/2018/jfk army record # 194-10012-10139.md            document_date    00/00/00              → month must be in 1..12: 00/00/00
 releases/2018/157-10011-10007.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
 releases/2018/157-10014-10242.md                              document_date    00/00/1975            → month must be in 1..12: 00/00/1975
 releases/2018/157-10014-10227.md                              document_date    06/00/1975            → day is out of range for month: 06/00/1975
@@ -514,7 +507,6 @@ Summary of issues:
   3× year 0 is out of range: 03/23/0000
   3× year 0 is out of range: 02/21/0000
   1× day is out of range for month: 12/00/1963
-  7× month must be in 1..12: 00/00/00
   4× year 0 is out of range: 09/01/0000
   4× year 0 is out of range: 12/03/0000
   3× year 0 is out of range: 12/01/0000
@@ -608,7 +600,6 @@ Unique raw values:
   3× '03/23/0000'
   3× '02/21/0000'
   1× '12/00/1963'
-  7× '00/00/00'
   4× '09/01/0000'
   4× '12/03/0000'
   3× '12/01/0000'
