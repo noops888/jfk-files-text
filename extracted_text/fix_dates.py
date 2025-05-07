@@ -3,8 +3,8 @@ import re
 from pathlib import Path
 import argparse
 
-# Match any YAML key containing 'date' whose value is exactly 01/01/0000
-PATTERN = re.compile(r"^(\s*\w*date\w*\s*:\s*)(['\"]?)01/01/0000\2\s*$")
+# Match any YAML key containing 'date' whose value is exactly 01/01/0000 or 00/00/00
+PATTERN = re.compile(r"^(\s*\w*date\w*\s*:\s*)(['\"]?)(?:01/01/0000|00/00/00)\2\s*$")
 
 
 def dry_run(root="releases"):

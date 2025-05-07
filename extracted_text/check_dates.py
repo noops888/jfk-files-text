@@ -5,7 +5,7 @@ from dateutil.parser import parse as dt_parse
 from pathlib import Path
 from collections import Counter
 
-INVALID_PLACEHOLDERS = {"01/01/0000", "0000-00-00"}
+INVALID_PLACEHOLDERS = {"01/01/0000", "0000-00-00", "00/00/00"}
 
 def is_date_key(k):
     return "date" in k.lower()
